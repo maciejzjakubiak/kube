@@ -176,3 +176,106 @@
 2025-08-15T21:06:01.724Z [error][Sonarr]: [Sonarr] Failed to retrieve system status:  
 2025-08-15T21:06:08.116Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
 2025-08-15T21:06:28.514Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:10:20.840Z [info]: Commit Tag: $GIT_SHA 
+2025-08-15T21:10:22.219Z [info]: Starting Jellyseerr version 2.7.3 
+2025-08-15T21:10:24.634Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2025-08-15T21:10:24.648Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2025-08-15T21:10:24.652Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2025-08-15T21:10:24.654Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2025-08-15T21:10:24.655Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2025-08-15T21:10:24.658Z [debug][Settings Migrator]: Checking migration '0006_remove_lunasea.js'... 
+2025-08-15T21:10:24.665Z [info][Notifications]: Registered notification agents 
+2025-08-15T21:10:24.744Z [info][Jobs]: Scheduled jobs loaded 
+2025-08-15T21:10:25.113Z [info][Server]: Server ready on port 5055 
+2025-08-15T21:11:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:11:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-15T21:11:10.480Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:11:10.486Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:11:16.319Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:11:16.332Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:11:16.611Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:11:21.753Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:11:23.217Z [error][Jellyfin API]: Something went wrong while getting libraries from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096 {}
+2025-08-15T21:11:23.218Z [error][Jellyfin API]: Something went wrong while getting the account from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096 {}
+2025-08-15T21:11:45.130Z [error][Radarr]: [Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878 
+2025-08-15T21:11:45.269Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:11:45.273Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:11:46.897Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:11:55.428Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:11:55.434Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:12:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:12:00.013Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-15T21:12:01.661Z [error][Radarr]: [Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878 
+2025-08-15T21:12:05.596Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:12:07.040Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:12:19.688Z [error][Radarr]: [Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878 
+2025-08-15T21:12:20.770Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:12:46.793Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:12:51.532Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:13:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:13:00.005Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-15T21:13:24.693Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:13:24.715Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:13:34.890Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:13:34.895Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:13:50.048Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:13:52.187Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:13:55.044Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:14:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:14:00.004Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-15T21:14:14.798Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:14:14.803Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:14:20.208Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:14:24.967Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:14:24.970Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:14:45.098Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:14:45.103Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:14:50.244Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:14:55.536Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:14:55.542Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:15:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:15:00.015Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-15T21:15:00.018Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a2923a2e-bfa0-4a6b-8f86-013b25d43efc"}
+2025-08-15T21:15:00.036Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-15T21:15:00.042Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096 {}
+2025-08-15T21:15:00.043Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-15T21:15:08.474Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:15:08.477Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:15:13.649Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:15:13.659Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:15:33.827Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:15:39.521Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:15:50.576Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:15:59.525Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:16:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:16:20.553Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:17:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:17:07.592Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:17:11.983Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:17:11.992Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:17:22.158Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:17:22.163Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:17:32.372Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:17:47.369Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:18:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:18:14.751Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:18:14.755Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:18:17.570Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:18:17.577Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:18:19.924Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:18:25.527Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:18:35.531Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:18:58.517Z [debug][API]: Something went wrong retrieving languages {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate"}
+2025-08-15T21:19:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:19:38.618Z [debug][API]: Something went wrong retrieving movie genres {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate"}
+2025-08-15T21:20:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:20:00.023Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-15T21:20:00.024Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c44a41ef-3249-4404-aa4c-39c28663bd8d"}
+2025-08-15T21:20:00.038Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-15T21:20:00.040Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096 {}
+2025-08-15T21:20:00.041Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-15T21:21:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:21:33.670Z [debug][API]: Something went wrong retrieving backdrops {"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate"}
+2025-08-15T21:22:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:23:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-15T21:24:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 

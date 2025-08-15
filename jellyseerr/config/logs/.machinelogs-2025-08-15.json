@@ -176,3 +176,106 @@
 {"label":"Sonarr","level":"error","message":"[Sonarr] Failed to retrieve system status: ","timestamp":"2025-08-15T21:06:01.724Z"}
 {"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:06:08.116Z"}
 {"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:06:28.514Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2025-08-15T21:10:20.840Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2025-08-15T21:10:22.219Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2025-08-15T21:10:24.634Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2025-08-15T21:10:24.648Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2025-08-15T21:10:24.652Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2025-08-15T21:10:24.654Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2025-08-15T21:10:24.655Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0006_remove_lunasea.js'...","timestamp":"2025-08-15T21:10:24.658Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2025-08-15T21:10:24.665Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2025-08-15T21:10:24.744Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2025-08-15T21:10:25.113Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:11:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radar","timestamp":"2025-08-15T21:11:00.034Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:11:10.480Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:11:10.486Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:11:16.319Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:11:16.332Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:11:16.611Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:11:21.753Z"}
+{"label":"Jellyfin API","level":"error","message":"Something went wrong while getting libraries from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096","timestamp":"2025-08-15T21:11:23.217Z"}
+{"label":"Jellyfin API","level":"error","message":"Something went wrong while getting the account from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096","timestamp":"2025-08-15T21:11:23.218Z"}
+{"label":"Radarr","level":"error","message":"[Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878","timestamp":"2025-08-15T21:11:45.130Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:11:45.269Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:11:45.273Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:11:46.897Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:11:55.428Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:11:55.434Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:12:00.007Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radar","timestamp":"2025-08-15T21:12:00.013Z"}
+{"label":"Radarr","level":"error","message":"[Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878","timestamp":"2025-08-15T21:12:01.661Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:12:05.596Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:12:07.040Z"}
+{"label":"Radarr","level":"error","message":"[Radarr] Failed to retrieve profiles: connect ECONNREFUSED 172.17.0.2:7878","timestamp":"2025-08-15T21:12:19.688Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:12:20.770Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:12:46.793Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:12:51.532Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:13:00.002Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radar","timestamp":"2025-08-15T21:13:00.005Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:13:24.693Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:13:24.715Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:13:34.890Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:13:34.895Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:13:50.048Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:13:52.187Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:13:55.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:14:00.002Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radar","timestamp":"2025-08-15T21:14:00.004Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:14:14.798Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:14:14.803Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:14:20.208Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:14:24.967Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:14:24.970Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:14:45.098Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:14:45.103Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:14:50.244Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:14:55.536Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:14:55.542Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:15:00.005Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-08-15T21:15:00.015Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"a2923a2e-bfa0-4a6b-8f86-013b25d43efc","timestamp":"2025-08-15T21:15:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-08-15T21:15:00.036Z"}
+{"label":"Jellyfin API","level":"error","message":"Something went wrong while getting library content from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096","timestamp":"2025-08-15T21:15:00.042Z"}
+{"errorMessage":"","label":"Jellyfin Sync","level":"error","message":"Sync interrupted","timestamp":"2025-08-15T21:15:00.043Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:15:08.474Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:15:08.477Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:15:13.649Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:15:13.659Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:15:33.827Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:15:39.521Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:15:50.576Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:15:59.525Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:16:00.003Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:16:20.553Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:17:00.006Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:17:07.592Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:17:11.983Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:17:11.992Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:17:22.158Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:17:22.163Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:17:32.372Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:17:47.369Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:18:00.003Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:18:14.751Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:18:14.755Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:18:17.570Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:18:17.577Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:18:19.924Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:18:25.527Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:18:35.531Z"}
+{"errorMessage":"[TMDB] Failed to fetch langauges: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving languages","timestamp":"2025-08-15T21:18:58.517Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:19:00.006Z"}
+{"errorMessage":"[TMDB] Failed to fetch movie genres: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving movie genres","timestamp":"2025-08-15T21:19:38.618Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:20:00.008Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2025-08-15T21:20:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"c44a41ef-3249-4404-aa4c-39c28663bd8d","timestamp":"2025-08-15T21:20:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2025-08-15T21:20:00.038Z"}
+{"label":"Jellyfin API","level":"error","message":"Something went wrong while getting library content from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096","timestamp":"2025-08-15T21:20:00.040Z"}
+{"errorMessage":"","label":"Jellyfin Sync","level":"error","message":"Sync interrupted","timestamp":"2025-08-15T21:20:00.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:21:00.005Z"}
+{"errorMessage":"[TMDB] Failed to fetch all trending: unable to get local issuer certificate","label":"API","level":"debug","message":"Something went wrong retrieving backdrops","timestamp":"2025-08-15T21:21:33.670Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:22:00.005Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:23:00.007Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-08-15T21:24:00.006Z"}

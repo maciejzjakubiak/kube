@@ -2135,3 +2135,545 @@
 2025-08-15 21:06:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (22 ms)
 2025-08-15 21:06:34.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
 2025-08-15 21:06:35.6|Info|ConsoleApp|Exiting main.
+2025-08-15 21:10:17.8|Debug|ProcessProvider|Found 0 processes with the name: Radarr.Console
+2025-08-15 21:10:17.8|Debug|ProcessProvider|Found 1 processes with the name: Radarr
+2025-08-15 21:10:17.8|Debug|ProcessProvider| - [152] Radarr
+2025-08-15 21:10:18.0|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-15 21:10:18.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-15 21:10:18.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-15 21:10:18.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-15 21:10:18.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1917362s
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.2189108s
+2025-08-15 21:10:18.8|Debug|MigrationController|Took: 00:00:00.8129988
+2025-08-15 21:10:18.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-15 21:10:18.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-15 21:10:18.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-15 21:10:18.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-15 21:10:19.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-15 21:10:19.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1193068s
+2025-08-15 21:10:19.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-15 21:10:19.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1472064s
+2025-08-15 21:10:19.1|Debug|MigrationController|Took: 00:00:00.3189120
+2025-08-15 21:10:20.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2025-08-15 21:10:20.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:20.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:21.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-08-15 21:10:21.1|Debug|QualityDefinitionService|Setting up default quality config
+2025-08-15 21:10:21.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:21.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:21.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:21.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:21.5|Debug|Api|[GET] /api/v3/command: 200.OK (175 ms)
+2025-08-15 21:10:21.5|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:21.5|Debug|Api|[GET] /api/v3/command: 200.OK (36 ms)
+2025-08-15 21:10:21.6|Debug|Api|[GET] /api/v3/movie: 200.OK (279 ms)
+2025-08-15 21:10:21.6|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:21.6|Debug|NotificationFactory|Initializing Providers. Count 26
+2025-08-15 21:10:21.7|Debug|Api|[GET] /api/v3/movie: 200.OK (72 ms)
+2025-08-15 21:10:21.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2025-08-15 21:10:21.8|Debug|IndexerFactory|Initializing Providers. Count 9
+2025-08-15 21:10:21.9|Debug|ImportListFactory|Initializing Providers. Count 19
+2025-08-15 21:10:21.9|Debug|MetadataFactory|Initializing Providers. Count 5
+2025-08-15 21:10:21.9|Debug|DownloadClientFactory|Initializing Providers. Count 18
+2025-08-15 21:10:22.0|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-15 21:10:22.0|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-15 21:10:22.0|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2025-08-15 21:10:22.2|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-15 21:10:22.3|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v5.26.2.10099] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Radarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-15 21:10:23.0|Warn|SystemTimeCheck|Unable to verify system time
+
+[v5.26.2.10099] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Radarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+
+2025-08-15 21:10:23.3|Error|TaskExtensions|Task Error
+
+[v5.26.2.10099] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Radarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Radarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Radarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Radarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-15 21:10:51.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-08-15 21:10:51.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:51.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (65 ms)
+2025-08-15 21:10:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/queue/details: 200.OK (110 ms)
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (112 ms)
+2025-08-15 21:10:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (20 ms)
+2025-08-15 21:10:52.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (63 ms)
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/queue/details: 200.OK (69 ms)
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/command: 200.OK (69 ms)
+2025-08-15 21:10:52.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.2|Debug|Api|[GET] /api/v3/command: 200.OK (29 ms)
+2025-08-15 21:10:52.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.2|Debug|Api|[GET] /api/v3/command: 200.OK (15 ms)
+2025-08-15 21:10:52.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.2|Debug|Api|[GET] /api/v3/command: 200.OK (15 ms)
+2025-08-15 21:10:52.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.2|Debug|Api|[GET] /api/v3/command: 200.OK (17 ms)
+2025-08-15 21:10:52.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.2|Debug|Api|[GET] /api/v3/command: 200.OK (25 ms)
+2025-08-15 21:11:01.6|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:11:01.7|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:11:01.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.8|Debug|Api|[GET] /api/v3/localization/language: 200.OK (17 ms)
+2025-08-15 21:11:01.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/movie: 200.OK (53 ms)
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/customFilter: 200.OK (51 ms)
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/collection: 200.OK (64 ms)
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/tag: 200.OK (62 ms)
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/language: 200.OK (67 ms)
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:01.9|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (90 ms)
+2025-08-15 21:11:02.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.0|Debug|Api|[GET] /api/v3/indexerFlag: 200.OK (43 ms)
+2025-08-15 21:11:02.0|Debug|Api|[GET] /api/v3/importlist: 200.OK (58 ms)
+2025-08-15 21:11:02.0|Debug|Api|[GET] /api/v3/config/ui: 200.OK (57 ms)
+2025-08-15 21:11:02.0|Debug|Api|[GET] /api/v3/localization: 200.OK (61 ms)
+2025-08-15 21:11:02.0|Debug|Api|[GET] /api/v3/system/status: 200.OK (84 ms)
+2025-08-15 21:11:02.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:11:02.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:02.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:11:02.1|Debug|Api|[GET] /api/v3/queue/status: 200.OK (32 ms)
+2025-08-15 21:11:02.2|Debug|Api|[GET] /api/v3/health: 200.OK (69 ms)
+2025-08-15 21:11:02.3|Debug|Api|[GET] /api/v3/config/host: 200.OK (186 ms)
+2025-08-15 21:11:05.7|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:11:05.7|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Api|[GET] /api/v3/localization/language: 200.OK (14 ms)
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.8|Debug|Api|[GET] /api/v3/collection: 200.OK (41 ms)
+2025-08-15 21:11:05.8|Debug|Api|[GET] /api/v3/customFilter: 200.OK (42 ms)
+2025-08-15 21:11:05.8|Debug|Api|[GET] /api/v3/movie: 200.OK (56 ms)
+2025-08-15 21:11:05.8|Debug|Api|[GET] /api/v3/tag: 200.OK (53 ms)
+2025-08-15 21:11:05.9|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (60 ms)
+2025-08-15 21:11:05.9|Debug|Api|[GET] /api/v3/language: 200.OK (60 ms)
+2025-08-15 21:11:05.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:05.9|Debug|Api|[GET] /api/v3/importlist: 200.OK (56 ms)
+2025-08-15 21:11:05.9|Debug|Api|[GET] /api/v3/indexerFlag: 200.OK (53 ms)
+2025-08-15 21:11:06.0|Debug|Api|[GET] /api/v3/config/ui: 200.OK (53 ms)
+2025-08-15 21:11:06.0|Debug|Api|[GET] /api/v3/system/status: 200.OK (56 ms)
+2025-08-15 21:11:06.0|Debug|Api|[GET] /api/v3/localization: 200.OK (62 ms)
+2025-08-15 21:11:06.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:11:06.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:06.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:06.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:11:06.1|Debug|Api|[GET] /api/v3/health: 200.OK (17 ms)
+2025-08-15 21:11:06.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:11:06.1|Debug|Api|[GET] /api/v3/queue/status: 200.OK (33 ms)
+2025-08-15 21:11:06.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (41 ms)
+2025-08-15 21:12:21.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:21.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:12:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (30 ms)
+2025-08-15 21:12:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (43 ms)
+2025-08-15 21:12:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (45 ms)
+2025-08-15 21:12:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (38 ms)
+2025-08-15 21:12:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.1|Debug|Api|[GET] /api/v3/command: 200.OK (39 ms)
+2025-08-15 21:12:22.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (39 ms)
+2025-08-15 21:12:22.1|Debug|Api|[GET] /api/v3/command: 200.OK (37 ms)
+2025-08-15 21:12:43.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:43.4|Debug|Api|[GET] /api/v3/config/host: 200.OK (19 ms)
+2025-08-15 21:12:56.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:56.7|Debug|Api|[PUT] /api/v3/config/host: 202.Accepted (712 ms)
+2025-08-15 21:13:51.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (15 ms)
+2025-08-15 21:13:51.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (21 ms)
+2025-08-15 21:13:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (38 ms)
+2025-08-15 21:13:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (29 ms)
+2025-08-15 21:13:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:13:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:13:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (32 ms)
+2025-08-15 21:13:52.1|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:14:20.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:20.1|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (20 ms)
+2025-08-15 21:14:20.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:20.2|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (12 ms)
+2025-08-15 21:14:20.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:20.2|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:14:20.2|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:14:20.3|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (87 ms)
+2025-08-15 21:14:20.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:20.3|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (11 ms)
+2025-08-15 21:14:32.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:32.1|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (9 ms)
+2025-08-15 21:14:32.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:32.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:32.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:32.1|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (18 ms)
+2025-08-15 21:14:32.1|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (22 ms)
+2025-08-15 21:14:32.2|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:14:32.2|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:14:32.2|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (77 ms)
+2025-08-15 21:15:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (83 ms)
+2025-08-15 21:15:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (29 ms)
+2025-08-15 21:15:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (27 ms)
+2025-08-15 21:15:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (79 ms)
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (28 ms)
+2025-08-15 21:15:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:15:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (36 ms)
+2025-08-15 21:15:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (36 ms)
+2025-08-15 21:15:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:15:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (35 ms)
+2025-08-15 21:16:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (26 ms)
+2025-08-15 21:16:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (18 ms)
+2025-08-15 21:16:00.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (12 ms)
+2025-08-15 21:16:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.0|Debug|Api|[GET] /api/v3/command: 200.OK (24 ms)
+2025-08-15 21:16:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (35 ms)
+2025-08-15 21:16:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (27 ms)
+2025-08-15 21:16:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (39 ms)
+2025-08-15 21:16:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (45 ms)
+2025-08-15 21:16:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (38 ms)
+2025-08-15 21:16:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (36 ms)
+2025-08-15 21:16:21.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-08-15 21:16:21.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (11 ms)
+2025-08-15 21:16:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:16:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (14 ms)
+2025-08-15 21:16:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (14 ms)
+2025-08-15 21:17:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (34 ms)
+2025-08-15 21:17:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (33 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (28 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (22 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (43 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (39 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (27 ms)
+2025-08-15 21:17:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (27 ms)
+2025-08-15 21:17:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (60 ms)
+2025-08-15 21:17:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (105 ms)
+2025-08-15 21:17:38.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.3|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (12 ms)
+2025-08-15 21:17:38.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.4|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (14 ms)
+2025-08-15 21:17:38.4|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (20 ms)
+2025-08-15 21:17:38.4|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:17:38.4|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:17:38.4|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (70 ms)
+2025-08-15 21:18:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (40 ms)
+2025-08-15 21:18:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (16 ms)
+2025-08-15 21:18:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (18 ms)
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (49 ms)
+2025-08-15 21:18:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (27 ms)
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (56 ms)
+2025-08-15 21:18:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (25 ms)
+2025-08-15 21:18:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (21 ms)
+2025-08-15 21:18:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (25 ms)
+2025-08-15 21:18:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:19:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (28 ms)
+2025-08-15 21:19:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (43 ms)
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (41 ms)
+2025-08-15 21:19:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (44 ms)
+2025-08-15 21:19:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (28 ms)
+2025-08-15 21:19:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (38 ms)
+2025-08-15 21:19:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (65 ms)
+2025-08-15 21:19:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.3|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (70 ms)
+2025-08-15 21:19:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (54 ms)
+2025-08-15 21:19:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:20:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (28 ms)
+2025-08-15 21:20:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (17 ms)
+2025-08-15 21:20:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (25 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (12 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (25 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (33 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (32 ms)
+2025-08-15 21:20:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (29 ms)
+2025-08-15 21:20:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (28 ms)
+2025-08-15 21:21:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (33 ms)
+2025-08-15 21:21:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (148 ms)
+2025-08-15 21:21:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.2|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (175 ms)
+2025-08-15 21:21:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (22 ms)
+2025-08-15 21:21:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (25 ms)
+2025-08-15 21:21:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (19 ms)
+2025-08-15 21:21:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.3|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:21:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (33 ms)
+2025-08-15 21:21:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (27 ms)
+2025-08-15 21:21:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:21:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (11 ms)
+2025-08-15 21:21:22.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:21:52.0|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-08-15 21:21:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (11 ms)
+2025-08-15 21:21:52.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (18 ms)
+2025-08-15 21:22:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (34 ms)
+2025-08-15 21:22:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (19 ms)
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (30 ms)
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (38 ms)
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (30 ms)
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (33 ms)
+2025-08-15 21:22:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (33 ms)
+2025-08-15 21:22:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (33 ms)
+2025-08-15 21:22:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (23 ms)
+2025-08-15 21:23:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (35 ms)
+2025-08-15 21:23:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (19 ms)
+2025-08-15 21:23:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (20 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (32 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (29 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (30 ms)
+2025-08-15 21:23:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:23:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:23:52.0|Info|RssSyncService|Starting RSS Sync
+2025-08-15 21:23:52.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-15 21:23:52.0|Info|DownloadDecisionMaker|No results found
+2025-08-15 21:23:52.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-15 21:23:52.1|Debug|PendingReleaseService|Removing failed releases from pending
+2025-08-15 21:23:52.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:52.4|Debug|Api|[GET] /api/v3/command: 200.OK (11 ms)
+2025-08-15 21:23:52.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:52.4|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:24:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (39 ms)
+2025-08-15 21:24:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (35 ms)
+2025-08-15 21:24:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (50 ms)
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (19 ms)
+2025-08-15 21:24:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (32 ms)
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (45 ms)
+2025-08-15 21:24:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (8 ms)
+2025-08-15 21:24:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (15 ms)
+2025-08-15 21:24:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (18 ms)
+2025-08-15 21:24:00.2|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (25 ms)
+2025-08-15 21:25:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.1|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (110 ms)
+2025-08-15 21:25:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.1|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.2|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (50 ms)
+2025-08-15 21:25:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (77 ms)
+2025-08-15 21:25:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (59 ms)
+2025-08-15 21:25:00.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.4|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (77 ms)
+2025-08-15 21:25:00.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.4|Debug|Api|[GET] /api/v3/command: 200.OK (76 ms)
+2025-08-15 21:25:00.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.5|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (96 ms)
+2025-08-15 21:25:00.5|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.5|Debug|Api|[GET] /api/v3/command: 200.OK (84 ms)
+2025-08-15 21:25:00.5|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.5|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (60 ms)
+2025-08-15 21:25:00.6|Debug|Api|[GET] /api/v3/command: 200.OK (53 ms)

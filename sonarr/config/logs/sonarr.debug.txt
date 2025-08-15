@@ -2333,3 +2333,521 @@
 2025-08-15 21:06:34.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
 2025-08-15 21:06:34.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
 2025-08-15 21:06:35.1|Info|ConsoleApp|Exiting main.
+2025-08-15 21:10:17.8|Debug|ProcessProvider|Found 0 processes with the name: Sonarr.Console
+2025-08-15 21:10:17.9|Debug|ProcessProvider|Found 1 processes with the name: Sonarr
+2025-08-15 21:10:17.9|Debug|ProcessProvider| - [152] Sonarr
+2025-08-15 21:10:18.0|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-15 21:10:18.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-15 21:10:18.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-15 21:10:18.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-15 21:10:18.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1863358s
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-15 21:10:18.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.2154565s
+2025-08-15 21:10:18.8|Debug|MigrationController|Took: 00:00:00.7806153
+2025-08-15 21:10:18.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-15 21:10:18.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-15 21:10:18.9|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-15 21:10:19.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-15 21:10:19.0|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-15 21:10:19.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1052227s
+2025-08-15 21:10:19.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-15 21:10:19.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1322725s
+2025-08-15 21:10:19.2|Debug|MigrationController|Took: 00:00:00.3367302
+2025-08-15 21:10:20.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-08-15 21:10:21.1|Debug|QualityDefinitionService|Setting up default quality config
+2025-08-15 21:10:21.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-08-15 21:10:21.6|Debug|NotificationFactory|Initializing Providers. Count 25
+2025-08-15 21:10:21.8|Debug|IndexerFactory|Initializing Providers. Count 10
+2025-08-15 21:10:21.8|Debug|ImportListFactory|Initializing Providers. Count 11
+2025-08-15 21:10:21.8|Debug|MetadataFactory|Initializing Providers. Count 5
+2025-08-15 21:10:21.8|Debug|DownloadClientFactory|Initializing Providers. Count 18
+2025-08-15 21:10:21.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-15 21:10:21.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-15 21:10:21.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-08-15 21:10:22.1|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-15 21:10:22.5|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:10:22.6|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-15 21:10:23.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:10:23.7|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-15 21:10:23.9|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:10:23.9|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Sonarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-15 21:10:29.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:29.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:10:29.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:29.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:29.6|Debug|Api|[GET] /api/v3/command: 200.OK (115 ms)
+2025-08-15 21:10:29.7|Debug|Api|[GET] /api/v3/series: 200.OK (160 ms)
+2025-08-15 21:10:51.8|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-08-15 21:10:51.9|Info|RssSyncService|Starting RSS Sync
+2025-08-15 21:10:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:51.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (82 ms)
+2025-08-15 21:10:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Info|DownloadDecisionMaker|No results found
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (18 ms)
+2025-08-15 21:10:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (114 ms)
+2025-08-15 21:10:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-15 21:10:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (28 ms)
+2025-08-15 21:10:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (45 ms)
+2025-08-15 21:10:52.1|Debug|PendingReleaseService|Removing failed releases from pending
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/command: 200.OK (47 ms)
+2025-08-15 21:10:52.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:10:52.1|Debug|Api|[GET] /api/v3/command: 200.OK (9 ms)
+2025-08-15 21:12:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:21.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (27 ms)
+2025-08-15 21:12:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:21.9|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:12:21.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (33 ms)
+2025-08-15 21:12:22.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (15 ms)
+2025-08-15 21:12:25.8|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:12:25.9|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.0|Debug|Api|[GET] /api/v3/localization/language: 200.OK (20 ms)
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.1|Debug|Api|[GET] /api/v3/series: 200.OK (24 ms)
+2025-08-15 21:12:26.1|Debug|Api|[GET] /api/v3/customFilter: 200.OK (32 ms)
+2025-08-15 21:12:26.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.1|Debug|Api|[GET] /api/v3/tag: 200.OK (48 ms)
+2025-08-15 21:12:26.1|Debug|Api|[GET] /api/v3/language: 200.OK (69 ms)
+2025-08-15 21:12:26.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.1|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (102 ms)
+2025-08-15 21:12:26.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.2|Debug|Api|[GET] /api/v3/importlist: 200.OK (105 ms)
+2025-08-15 21:12:26.2|Debug|Api|[GET] /api/v3/indexerFlag: 200.OK (68 ms)
+2025-08-15 21:12:26.2|Debug|Api|[GET] /api/v3/config/ui: 200.OK (57 ms)
+2025-08-15 21:12:26.2|Debug|Api|[GET] /api/v3/localization: 200.OK (53 ms)
+2025-08-15 21:12:26.3|Debug|Api|[GET] /api/v3/system/status: 200.OK (85 ms)
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 21:12:26.3|Debug|Api|[GET] /api/v3/health: 200.OK (28 ms)
+2025-08-15 21:12:26.3|Debug|Api|[GET] /api/v3/queue/status: 200.OK (31 ms)
+2025-08-15 21:12:26.3|Debug|Api|[GET] /api/v3/series: 200.OK (44 ms)
+2025-08-15 21:12:26.3|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (45 ms)
+2025-08-15 21:13:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (17 ms)
+2025-08-15 21:13:51.9|Debug|Api|[GET] /api/v3/command: 200.OK (23 ms)
+2025-08-15 21:13:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:13:51.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (32 ms)
+2025-08-15 21:13:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (41 ms)
+2025-08-15 21:14:58.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:14:58.3|Debug|Api|[GET] /api/v3/config/host: 200.OK (117 ms)
+2025-08-15 21:15:18.6|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:18.6|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (16 ms)
+2025-08-15 21:15:18.6|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:18.7|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (17 ms)
+2025-08-15 21:15:18.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:18.7|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (18 ms)
+2025-08-15 21:15:18.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:18.7|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (12 ms)
+2025-08-15 21:15:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:21.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (15 ms)
+2025-08-15 21:15:21.9|Debug|Api|[GET] /api/v3/command: 200.OK (10 ms)
+2025-08-15 21:15:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:21.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (9 ms)
+2025-08-15 21:15:21.9|Debug|Api|[GET] /api/v3/command: 200.OK (8 ms)
+2025-08-15 21:15:40.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:40.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:40.5|Debug|Api|[GET] /api/v3/series: 200.OK (22 ms)
+2025-08-15 21:15:40.5|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (18 ms)
+2025-08-15 21:15:44.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:44.8|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (16 ms)
+2025-08-15 21:15:47.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:47.7|Error|X509CertificateValidationService|Certificate validation for skyhook.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:15:47.7|Warn|SkyHookProxy|System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewSeries(String title) in ./Sonarr.Core/MetadataSource/SkyHook/SkyHookProxy.cs:line 143
+
+2025-08-15 21:15:47.8|Debug|Api|[GET] /api/v3/series/lookup?term=asd: 503.ServiceUnavailable (340 ms)
+2025-08-15 21:15:51.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:51.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:51.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:51.0|Debug|Api|[GET] /api/v3/health: 200.OK (13 ms)
+2025-08-15 21:15:51.1|Debug|Api|[GET] /api/v3/system/status: 200.OK (71 ms)
+2025-08-15 21:15:51.1|Debug|Api|[GET] /api/v3/diskspace: 200.OK (110 ms)
+2025-08-15 21:15:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:57.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:15:57.8|Debug|Api|[GET] /api/v3/command: 200.OK (13 ms)
+2025-08-15 21:15:57.8|Debug|Api|[GET] /api/v3/system/task: 200.OK (28 ms)
+2025-08-15 21:16:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.1|Debug|Api|[GET] /api/v3/system/backup: 200.OK (22 ms)
+2025-08-15 21:16:00.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:00.9|Debug|Api|[GET] /api/v3/log?page=1&pageSize=50&sortDirection=descending&sortKey=time: 200.OK (62 ms)
+2025-08-15 21:16:03.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:03.2|Debug|Api|[GET] /api/v3/log/file: 200.OK (24 ms)
+2025-08-15 21:16:08.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:08.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:08.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:08.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:08.3|Debug|Api|[GET] /api/v3/config/naming: 200.OK (55 ms)
+2025-08-15 21:16:08.3|Debug|Api|[GET] /api/v3/config/mediamanagement: 200.OK (59 ms)
+2025-08-15 21:16:08.3|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (52 ms)
+2025-08-15 21:16:08.3|Debug|Parser|Parsing string 'The.Series.Title's!.S01E01.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:08.8|Debug|Parser|Episode Parsed. The Series Title's! - S01E01 
+2025-08-15 21:16:08.9|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:08.9|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.S01E01.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:08.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:09.0|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:09.0|Debug|Parser|Parsing string 'The.Series.Title's!.S01E01-E03.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:09.0|Debug|Parser|Episode Parsed. The Series Title's! - S01E01-02-03 
+2025-08-15 21:16:09.0|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:09.0|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.S01E01-E03.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:09.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:09.0|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:09.0|Debug|Parser|Parsing string 'The.Series.Title's!.2013.10.30.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:09.3|Debug|Parser|Episode Parsed. The Series Title's - 2013-10-30 
+2025-08-15 21:16:09.3|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:09.3|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.2013.10.30.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:09.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:09.3|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:09.3|Debug|Parser|Parsing string '[RlsGroup] The Series Title's! - 001 [1080P]'
+2025-08-15 21:16:09.4|Debug|Parser|Episode Parsed. The Series Title's! - 001 
+2025-08-15 21:16:09.4|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:09.4|Debug|QualityParser|Trying to parse quality for '[RlsGroup] The Series Title's! - 001 [1080P]'
+2025-08-15 21:16:09.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-08-15 21:16:09.4|Debug|Parser|Release Group parsed: RlsGroup
+2025-08-15 21:16:09.4|Debug|Parser|Parsing string '[RlsGroup] The Series Title's! - 001 - 103 [1080p]'
+2025-08-15 21:16:09.4|Debug|Parser|Episode Parsed. The Series Title's! - 001 
+2025-08-15 21:16:09.4|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:09.4|Debug|QualityParser|Trying to parse quality for '[RlsGroup] The Series Title's! - 001 - 103 [1080p]'
+2025-08-15 21:16:09.5|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-08-15 21:16:09.5|Debug|Parser|Release Group parsed: RlsGroup
+2025-08-15 21:16:09.5|Debug|Api|[GET] /api/v3/config/naming/examples: 200.OK (1281 ms)
+2025-08-15 21:16:19.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:19.9|Debug|Parser|Parsing string 'The.Series.Title's!.S01E01.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:19.9|Debug|Parser|Episode Parsed. The Series Title's! - S01E01 
+2025-08-15 21:16:19.9|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:19.9|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.S01E01.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:19.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:19.9|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:20.0|Debug|Parser|Parsing string 'The.Series.Title's!.S01E01-E03.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:20.0|Debug|Parser|Episode Parsed. The Series Title's! - S01E01-02-03 
+2025-08-15 21:16:20.0|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:20.0|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.S01E01-E03.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:20.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:20.0|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:20.0|Debug|Parser|Parsing string 'The.Series.Title's!.2013.10.30.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:20.0|Debug|Parser|Episode Parsed. The Series Title's - 2013-10-30 
+2025-08-15 21:16:20.0|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:20.0|Debug|QualityParser|Trying to parse quality for 'The.Series.Title's!.2013.10.30.1080p.WEBDL.x264-EVOLVE'
+2025-08-15 21:16:20.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-08-15 21:16:20.0|Debug|Parser|Release Group parsed: EVOLVE
+2025-08-15 21:16:20.0|Debug|Parser|Parsing string '[RlsGroup] The Series Title's! - 001 [1080P]'
+2025-08-15 21:16:20.0|Debug|Parser|Episode Parsed. The Series Title's! - 001 
+2025-08-15 21:16:20.1|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:20.1|Debug|QualityParser|Trying to parse quality for '[RlsGroup] The Series Title's! - 001 [1080P]'
+2025-08-15 21:16:20.1|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-08-15 21:16:20.1|Debug|Parser|Release Group parsed: RlsGroup
+2025-08-15 21:16:20.1|Debug|Parser|Parsing string '[RlsGroup] The Series Title's! - 001 - 103 [1080p]'
+2025-08-15 21:16:20.1|Debug|Parser|Episode Parsed. The Series Title's! - 001 
+2025-08-15 21:16:20.1|Debug|Parser|Languages parsed: Unknown
+2025-08-15 21:16:20.1|Debug|QualityParser|Trying to parse quality for '[RlsGroup] The Series Title's! - 001 - 103 [1080p]'
+2025-08-15 21:16:20.1|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-08-15 21:16:20.1|Debug|Parser|Release Group parsed: RlsGroup
+2025-08-15 21:16:20.1|Debug|Api|[GET] /api/v3/config/naming/examples?renameEpisodes=false&replaceIllegalCharacters=true&colonReplacementFormat=4&customColonReplacementFormat=&multiEpisodeStyle=5&standardEpisodeFormat=%7BSeries%20Title%7D%20-%20S%7Bseason%3A00%7DE%7Bepisode%3A00%7D%20-%20%7BEpisode%20Title%7D%20%7BQuality%20Full%7D&dailyEpisodeFormat=%7BSeries%20Title%7D%20-%20%7BAir-Date%7D%20-%20%7BEpisode%20Title%7D%20%7BQuality%20Full%7D&animeEpisodeFormat=%7BSeries%20Title%7D%20-%20S%7Bseason%3A00%7DE%7Bepisode%3A00%7D%20-%20%7BEpisode%20Title%7D%20%7BQuality%20Full%7D&seriesFolderFormat=%7BSeries%20Title%7D&seasonFolderFormat=Season%20%7Bseason%7D&specialsFolderFormat=Specials&id=1: 200.OK (261 ms)
+2025-08-15 21:16:21.9|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-08-15 21:16:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:21.9|Debug|Api|[GET] /api/v3/command: 200.OK (10 ms)
+2025-08-15 21:16:21.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:22.0|Debug|Api|[GET] /api/v3/command: 200.OK (14 ms)
+2025-08-15 21:16:28.8|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:28.8|Debug|Api|[GET] /api/v3/filesystem?path=&allowFoldersWithoutTrailingSlashes=true&includeFiles=true: 200.OK (29 ms)
+2025-08-15 21:16:31.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:31.2|Debug|Api|[GET] /api/v3/filesystem?path=%2Fdownloads%2F&allowFoldersWithoutTrailingSlashes=true&includeFiles=true: 200.OK (20 ms)
+2025-08-15 21:16:32.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:33.0|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:16:33.0|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:16:33.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:33.0|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:16:33.0|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:16:33.0|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:16:33.1|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:16:33.1|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:16:33.1|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (42 ms)
+2025-08-15 21:16:33.1|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:16:33.1|Debug|Api|[POST] /api/v3/rootFolder: 201.Created (251 ms)
+2025-08-15 21:16:38.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:38.1|Debug|Api|[GET] /api/v3/health: 200.OK (9 ms)
+2025-08-15 21:16:46.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:46.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:46.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:46.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:46.5|Debug|Api|[GET] /api/v3/qualityprofile: 200.OK (18 ms)
+2025-08-15 21:16:46.5|Debug|Api|[GET] /api/v3/releaseprofile: 200.OK (44 ms)
+2025-08-15 21:16:46.5|Debug|Api|[GET] /api/v3/delayprofile: 200.OK (48 ms)
+2025-08-15 21:16:46.5|Debug|Api|[GET] /api/v3/indexer: 200.OK (54 ms)
+2025-08-15 21:16:49.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:49.1|Debug|Api|[GET] /api/v3/qualitydefinition: 200.OK (24 ms)
+2025-08-15 21:16:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:51.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:51.9|Debug|Api|[GET] /api/v3/command: 200.OK (9 ms)
+2025-08-15 21:16:51.9|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:16:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:52.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (13 ms)
+2025-08-15 21:16:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:16:54.6|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:54.7|Debug|Api|[GET] /api/v3/customformat: 200.OK (22 ms)
+2025-08-15 21:16:55.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:55.7|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:55.7|Debug|Api|[GET] /api/v3/indexer: 200.OK (21 ms)
+2025-08-15 21:16:55.7|Debug|Api|[GET] /api/v3/config/indexer: 200.OK (35 ms)
+2025-08-15 21:16:59.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:16:59.7|Debug|Api|[GET] /api/v3/indexer/schema: 200.OK (157 ms)
+2025-08-15 21:17:04.6|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:04.7|Debug|Api|[POST] /api/v3/indexer/action/newznabCategories: 200.OK (110 ms)
+2025-08-15 21:17:15.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:15.2|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (58 ms)
+2025-08-15 21:17:15.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:15.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:15.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:15.2|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (20 ms)
+2025-08-15 21:17:15.2|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (32 ms)
+2025-08-15 21:17:15.2|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:17:15.3|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:17:15.3|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (91 ms)
+2025-08-15 21:17:18.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:18.9|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (12 ms)
+2025-08-15 21:17:18.9|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:19.0|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (15 ms)
+2025-08-15 21:17:19.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:19.5|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (16 ms)
+2025-08-15 21:17:19.5|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:19.5|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (13 ms)
+2025-08-15 21:17:38.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.4|Debug|Api|[GET] /api/v3/system/status?apikey=(removed) 200.OK (10 ms)
+2025-08-15 21:17:38.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:17:38.4|Debug|Api|[GET] /api/v3/qualityProfile?apikey=(removed) 200.OK (13 ms)
+2025-08-15 21:17:38.5|Debug|Api|[GET] /api/v3/tag?apikey=(removed) 200.OK (31 ms)
+2025-08-15 21:17:38.5|Debug|RootFolderService|Generating list of unmapped folders
+2025-08-15 21:17:38.5|Debug|RootFolderService|0 unmapped folders detected.
+2025-08-15 21:17:38.5|Debug|Api|[GET] /api/v3/rootfolder?apikey=(removed) 200.OK (67 ms)
+2025-08-15 21:18:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (100 ms)
+2025-08-15 21:18:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (26 ms)
+2025-08-15 21:18:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (25 ms)
+2025-08-15 21:18:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (47 ms)
+2025-08-15 21:18:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (33 ms)
+2025-08-15 21:18:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (39 ms)
+2025-08-15 21:19:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (25 ms)
+2025-08-15 21:19:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (41 ms)
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (44 ms)
+2025-08-15 21:19:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (35 ms)
+2025-08-15 21:19:00.2|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (27 ms)
+2025-08-15 21:19:00.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:19:00.2|Debug|Api|[GET] /api/v3/command: 200.OK (34 ms)
+2025-08-15 21:20:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (27 ms)
+2025-08-15 21:20:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (24 ms)
+2025-08-15 21:20:00.0|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (16 ms)
+2025-08-15 21:20:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (27 ms)
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (31 ms)
+2025-08-15 21:20:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:20:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (25 ms)
+2025-08-15 21:21:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (32 ms)
+2025-08-15 21:21:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (25 ms)
+2025-08-15 21:21:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (18 ms)
+2025-08-15 21:21:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (24 ms)
+2025-08-15 21:21:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (40 ms)
+2025-08-15 21:21:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (28 ms)
+2025-08-15 21:21:51.9|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-08-15 21:21:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (13 ms)
+2025-08-15 21:21:52.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:21:52.0|Debug|Api|[GET] /api/v3/command: 200.OK (16 ms)
+2025-08-15 21:22:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (35 ms)
+2025-08-15 21:22:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (17 ms)
+2025-08-15 21:22:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (98 ms)
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (85 ms)
+2025-08-15 21:22:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (17 ms)
+2025-08-15 21:22:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (28 ms)
+2025-08-15 21:23:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (35 ms)
+2025-08-15 21:23:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (19 ms)
+2025-08-15 21:23:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (20 ms)
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (23 ms)
+2025-08-15 21:23:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (31 ms)
+2025-08-15 21:23:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (25 ms)
+2025-08-15 21:24:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.0|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (36 ms)
+2025-08-15 21:24:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (26 ms)
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (23 ms)
+2025-08-15 21:24:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (33 ms)
+2025-08-15 21:24:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (12 ms)
+2025-08-15 21:24:00.1|Debug|Api|[GET] /api/v3/command: 200.OK (22 ms)
+2025-08-15 21:25:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.1|Debug|Api|[POST] /api/v3/command?apikey=(removed) 201.Created (103 ms)
+2025-08-15 21:25:00.1|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.2|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (50 ms)
+2025-08-15 21:25:00.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.3|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (54 ms)
+2025-08-15 21:25:00.3|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.3|Debug|Api|[GET] /api/v3/command: 200.OK (36 ms)
+2025-08-15 21:25:00.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.4|Debug|Api|[GET] /api/v3/queue/details?all=true: 200.OK (36 ms)
+2025-08-15 21:25:00.4|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:25:00.5|Debug|Api|[GET] /api/v3/command: 200.OK (54 ms)
