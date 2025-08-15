@@ -1,0 +1,55 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    network_mode: "bridge"
+    volumes:
+      - ./jellyfin/config:/config
+      - ./jellyfin/media:/media
+    ports:
+      - "8096:8096"    # Change if needed
+    restart: unless-stopped
+
+  radarr:
+    image: radarr/radarr
+    container_name: radarr
+    network_mode: "bridge"
+    volumes:
+      - ./radarr/config:/config
+      - ./radarr/downloads:/downloads
+      - ./radarr/movies:/movies
+    ports:
+      - "7878:7878"    # Change if needed
+    restart: unless-stopped
+
+  sonarr:
+    image: sonarr/sonarr
+    container_name: sonarr
+    network_mode: "bridge"
+    volumes:
+      - ./sonarr/config:/config
+      - ./sonarr/downloads:/downloads
+      - ./sonarr/tv:/tv
+    ports:
+      - "8989:8989"    # Change if needed
+    restart: unless-stopped
+
+  prowlarr:
+    image: prowlarr/prowlarr
+    container_name: prowlarr
+    network_mode: "bridge"
+    volumes:
+      - ./prowlarr/config:/config
+    ports:
+      - "9696:9696"    # Change if needed
+    restart: unless-stopped
+
+  jellyseerr:
+    image: jellyseerr/jellyseerr
+    container_name: jellyseerr
+    network_mode: "bridge"
+    volumes:
+      - ./jellyseerr/config:/app/config
+    ports:
+      - "5055:5055"    # Change if needed
+    restart: unless-stopped
