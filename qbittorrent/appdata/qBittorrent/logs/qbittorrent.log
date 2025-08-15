@@ -1,0 +1,26 @@
+(N) 2025-08-15T20:54:32 - qBittorrent v5.1.2 started. Process ID: 153
+(N) 2025-08-15T20:54:32 - Using config directory: /config/qBittorrent
+(N) 2025-08-15T20:54:32 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-15T20:54:32 - Peer ID: "-qB5120-"
+(I) 2025-08-15T20:54:32 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-15T20:54:32 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-15T20:54:32 - Local Peer Discovery support: ON
+(I) 2025-08-15T20:54:32 - Peer Exchange (PeX) support: ON
+(I) 2025-08-15T20:54:32 - Anonymous mode: OFF
+(I) 2025-08-15T20:54:32 - Encryption support: ON
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "172.17.0.7". Port: "TCP/6881"
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "172.17.0.7". Port: "UTP/6881"
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-15T20:54:32 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-15T20:54:32 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-15T20:54:32 - Using built-in WebUI.
+(W) 2025-08-15T20:54:32 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-08-15T20:54:32 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-15T20:54:32 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-15T20:54:32 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(N) 2025-08-15T21:06:34 - qBittorrent termination initiated
+(N) 2025-08-15T21:06:35 - Saving resume data completed.
+(N) 2025-08-15T21:06:35 - BitTorrent session successfully finished.
+(N) 2025-08-15T21:06:35 - qBittorrent is now ready to exit

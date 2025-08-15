@@ -1,0 +1,643 @@
+2025-08-15 19:52:51.2|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-08-15 19:52:51.2|Debug|ProcessProvider|Found 1 processes with the name: Prowlarr
+2025-08-15 19:52:51.2|Debug|ProcessProvider| - [155] Prowlarr
+2025-08-15 19:52:51.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-15 19:52:51.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-15 19:52:51.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-15 19:52:51.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-15 19:52:51.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-15 19:52:51.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0703262s
+2025-08-15 19:52:51.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-15 19:52:51.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0898254s
+2025-08-15 19:52:51.5|Info|FluentMigrator.Runner.MigrationRunner|VersionMigration migrating
+2025-08-15 19:52:51.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:51.5|Info|FluentMigrator.Runner.MigrationRunner|CreateTable VersionInfo
+2025-08-15 19:52:51.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "VersionInfo" ("Version" INTEGER NOT NULL)
+2025-08-15 19:52:51.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0266404s
+2025-08-15 19:52:51.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:51.6|Info|FluentMigrator.Runner.MigrationRunner|VersionMigration migrated
+2025-08-15 19:52:51.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0842172s
+2025-08-15 19:52:51.7|Info|FluentMigrator.Runner.MigrationRunner|VersionUniqueMigration migrating
+2025-08-15 19:52:51.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:51.7|Info|FluentMigrator.Runner.MigrationRunner|CreateIndex VersionInfo (Version)
+2025-08-15 19:52:51.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE UNIQUE INDEX "UC_Version" ON "VersionInfo" ("Version" ASC)
+2025-08-15 19:52:51.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0217967s
+2025-08-15 19:52:51.8|Info|FluentMigrator.Runner.MigrationRunner|AlterTable VersionInfo
+2025-08-15 19:52:51.8|Info|FluentMigrator.Runner.MigrationRunner|=> 5.3E-06s
+2025-08-15 19:52:51.8|Info|FluentMigrator.Runner.MigrationRunner|CreateColumn VersionInfo AppliedOn DateTime
+2025-08-15 19:52:51.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|ALTER TABLE "VersionInfo" ADD COLUMN "AppliedOn" DATETIME
+2025-08-15 19:52:51.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0270349s
+2025-08-15 19:52:51.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:51.9|Info|FluentMigrator.Runner.MigrationRunner|VersionUniqueMigration migrated
+2025-08-15 19:52:51.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0713081s
+2025-08-15 19:52:52.0|Info|FluentMigrator.Runner.MigrationRunner|VersionDescriptionMigration migrating
+2025-08-15 19:52:52.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:52.0|Info|FluentMigrator.Runner.MigrationRunner|AlterTable VersionInfo
+2025-08-15 19:52:52.0|Info|FluentMigrator.Runner.MigrationRunner|=> 3.8E-06s
+2025-08-15 19:52:52.0|Info|FluentMigrator.Runner.MigrationRunner|CreateColumn VersionInfo Description String
+2025-08-15 19:52:52.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|ALTER TABLE "VersionInfo" ADD COLUMN "Description" TEXT
+2025-08-15 19:52:52.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0242063s
+2025-08-15 19:52:52.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:52.1|Info|FluentMigrator.Runner.MigrationRunner|VersionDescriptionMigration migrated
+2025-08-15 19:52:52.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0751107s
+2025-08-15 19:52:52.2|Info|FluentMigrator.Runner.MigrationRunner|1: InitialSetup migrating
+2025-08-15 19:52:52.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:52.2|Info|InitialSetup|Starting migration of Log DB to 1
+2025-08-15 19:52:52.3|Info|FluentMigrator.Runner.MigrationRunner|CreateTable Logs
+2025-08-15 19:52:52.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "Logs" ("Id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, "Message" TEXT NOT NULL, "Time" DATETIME NOT NULL, "Logger" TEXT NOT NULL, "Exception" TEXT, "ExceptionType" TEXT, "Level" TEXT NOT NULL)
+2025-08-15 19:52:52.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0224106s
+2025-08-15 19:52:52.3|Info|FluentMigrator.Runner.MigrationRunner|CreateIndex Logs (Time)
+2025-08-15 19:52:52.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE INDEX "IX_Logs_Time" ON "Logs" ("Time" ASC)
+2025-08-15 19:52:52.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0204012s
+2025-08-15 19:52:52.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (1, '2025-08-15T19:52:52', 'InitialSetup')
+2025-08-15 19:52:52.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:52.5|Info|FluentMigrator.Runner.MigrationRunner|1: InitialSetup migrated
+2025-08-15 19:52:52.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.102205s
+2025-08-15 19:52:52.5|Info|FluentMigrator.Runner.MigrationRunner|2: ApplicationStatus migrating
+2025-08-15 19:52:52.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:52.5|Info|ApplicationStatus|Starting migration of Log DB to 2
+2025-08-15 19:52:52.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (2, '2025-08-15T19:52:52', 'ApplicationStatus')
+2025-08-15 19:52:52.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:52.6|Info|FluentMigrator.Runner.MigrationRunner|2: ApplicationStatus migrated
+2025-08-15 19:52:52.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0855257s
+2025-08-15 19:52:52.6|Info|FluentMigrator.Runner.MigrationRunner|3: IndexerProps migrating
+2025-08-15 19:52:52.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:52.7|Info|IndexerProps|Starting migration of Log DB to 3
+2025-08-15 19:52:52.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (3, '2025-08-15T19:52:52', 'IndexerProps')
+2025-08-15 19:52:52.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:52.7|Info|FluentMigrator.Runner.MigrationRunner|3: IndexerProps migrated
+2025-08-15 19:52:52.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0871486s
+2025-08-15 19:52:52.8|Info|FluentMigrator.Runner.MigrationRunner|4: add_update_history migrating
+2025-08-15 19:52:52.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:52.8|Info|add_update_history|Starting migration of Log DB to 4
+2025-08-15 19:52:52.9|Info|FluentMigrator.Runner.MigrationRunner|CreateTable UpdateHistory
+2025-08-15 19:52:52.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "UpdateHistory" ("Id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, "Date" DATETIME NOT NULL, "Version" TEXT NOT NULL, "EventType" INTEGER NOT NULL)
+2025-08-15 19:52:52.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0222777s
+2025-08-15 19:52:52.9|Info|FluentMigrator.Runner.MigrationRunner|CreateIndex UpdateHistory (Date)
+2025-08-15 19:52:53.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE INDEX "IX_UpdateHistory_Date" ON "UpdateHistory" ("Date" ASC)
+2025-08-15 19:52:53.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0218815s
+2025-08-15 19:52:53.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (4, '2025-08-15T19:52:53', 'add_update_history')
+2025-08-15 19:52:53.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.1|Info|FluentMigrator.Runner.MigrationRunner|4: add_update_history migrated
+2025-08-15 19:52:53.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0973473s
+2025-08-15 19:52:53.1|Info|FluentMigrator.Runner.MigrationRunner|5: update_notifiarr migrating
+2025-08-15 19:52:53.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:53.2|Info|update_notifiarr|Starting migration of Log DB to 5
+2025-08-15 19:52:53.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (5, '2025-08-15T19:52:53', 'update_notifiarr')
+2025-08-15 19:52:53.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.2|Info|FluentMigrator.Runner.MigrationRunner|5: update_notifiarr migrated
+2025-08-15 19:52:53.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.098694s
+2025-08-15 19:52:53.3|Info|FluentMigrator.Runner.MigrationRunner|6: app_profiles migrating
+2025-08-15 19:52:53.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:53.3|Info|app_profiles|Starting migration of Log DB to 6
+2025-08-15 19:52:53.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (6, '2025-08-15T19:52:53', 'app_profiles')
+2025-08-15 19:52:53.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.4|Info|FluentMigrator.Runner.MigrationRunner|6: app_profiles migrated
+2025-08-15 19:52:53.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.095687s
+2025-08-15 19:52:53.4|Info|FluentMigrator.Runner.MigrationRunner|7: history_failed migrating
+2025-08-15 19:52:53.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:53.5|Info|history_failed|Starting migration of Log DB to 7
+2025-08-15 19:52:53.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (7, '2025-08-15T19:52:53', 'history_failed')
+2025-08-15 19:52:53.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.6|Info|FluentMigrator.Runner.MigrationRunner|7: history_failed migrated
+2025-08-15 19:52:53.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1015339s
+2025-08-15 19:52:53.6|Info|FluentMigrator.Runner.MigrationRunner|8: redacted_api migrating
+2025-08-15 19:52:53.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:53.7|Info|redacted_api|Starting migration of Log DB to 8
+2025-08-15 19:52:53.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (8, '2025-08-15T19:52:53', 'redacted_api')
+2025-08-15 19:52:53.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.7|Info|FluentMigrator.Runner.MigrationRunner|8: redacted_api migrated
+2025-08-15 19:52:53.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0961294s
+2025-08-15 19:52:53.8|Info|FluentMigrator.Runner.MigrationRunner|10: IndexerProxies migrating
+2025-08-15 19:52:53.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:53.8|Info|IndexerProxies|Starting migration of Log DB to 10
+2025-08-15 19:52:53.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (10, '2025-08-15T19:52:53', 'IndexerProxies')
+2025-08-15 19:52:53.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:53.9|Info|FluentMigrator.Runner.MigrationRunner|10: IndexerProxies migrated
+2025-08-15 19:52:53.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0948853s
+2025-08-15 19:52:53.9|Info|FluentMigrator.Runner.MigrationRunner|11: app_indexer_remote_name migrating
+2025-08-15 19:52:54.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.0|Info|app_indexer_remote_name|Starting migration of Log DB to 11
+2025-08-15 19:52:54.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (11, '2025-08-15T19:52:54', 'app_indexer_remote_name')
+2025-08-15 19:52:54.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.1|Info|FluentMigrator.Runner.MigrationRunner|11: app_indexer_remote_name migrated
+2025-08-15 19:52:54.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0984402s
+2025-08-15 19:52:54.1|Info|FluentMigrator.Runner.MigrationRunner|13: desi_gazelle_to_unit3d migrating
+2025-08-15 19:52:54.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.1|Info|desi_gazelle_to_unit3d|Starting migration of Log DB to 13
+2025-08-15 19:52:54.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (13, '2025-08-15T19:52:54', 'desi_gazelle_to_unit3d')
+2025-08-15 19:52:54.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.2|Info|FluentMigrator.Runner.MigrationRunner|13: desi_gazelle_to_unit3d migrated
+2025-08-15 19:52:54.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0840294s
+2025-08-15 19:52:54.2|Info|FluentMigrator.Runner.MigrationRunner|14: add_on_update_to_notifications migrating
+2025-08-15 19:52:54.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.3|Info|add_on_update_to_notifications|Starting migration of Log DB to 14
+2025-08-15 19:52:54.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (14, '2025-08-15T19:52:54', 'add_on_update_to_notifications')
+2025-08-15 19:52:54.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.3|Info|FluentMigrator.Runner.MigrationRunner|14: add_on_update_to_notifications migrated
+2025-08-15 19:52:54.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0918246s
+2025-08-15 19:52:54.4|Info|FluentMigrator.Runner.MigrationRunner|15: IndexerVersions migrating
+2025-08-15 19:52:54.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.4|Info|IndexerVersions|Starting migration of Log DB to 15
+2025-08-15 19:52:54.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (15, '2025-08-15T19:52:54', 'IndexerVersions')
+2025-08-15 19:52:54.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.5|Info|FluentMigrator.Runner.MigrationRunner|15: IndexerVersions migrated
+2025-08-15 19:52:54.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0904044s
+2025-08-15 19:52:54.5|Info|FluentMigrator.Runner.MigrationRunner|16: cleanup_config migrating
+2025-08-15 19:52:54.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.6|Info|cleanup_config|Starting migration of Log DB to 16
+2025-08-15 19:52:54.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (16, '2025-08-15T19:52:54', 'cleanup_config')
+2025-08-15 19:52:54.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.6|Info|FluentMigrator.Runner.MigrationRunner|16: cleanup_config migrated
+2025-08-15 19:52:54.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0864922s
+2025-08-15 19:52:54.7|Info|FluentMigrator.Runner.MigrationRunner|17: indexer_cleanup migrating
+2025-08-15 19:52:54.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.7|Info|indexer_cleanup|Starting migration of Log DB to 17
+2025-08-15 19:52:54.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (17, '2025-08-15T19:52:54', 'indexer_cleanup')
+2025-08-15 19:52:54.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.8|Info|FluentMigrator.Runner.MigrationRunner|17: indexer_cleanup migrated
+2025-08-15 19:52:54.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0797862s
+2025-08-15 19:52:54.8|Info|FluentMigrator.Runner.MigrationRunner|18: minimum_seeders migrating
+2025-08-15 19:52:54.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:54.9|Info|minimum_seeders|Starting migration of Log DB to 18
+2025-08-15 19:52:54.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (18, '2025-08-15T19:52:54', 'minimum_seeders')
+2025-08-15 19:52:54.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:54.9|Info|FluentMigrator.Runner.MigrationRunner|18: minimum_seeders migrated
+2025-08-15 19:52:55.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0972778s
+2025-08-15 19:52:55.0|Info|FluentMigrator.Runner.MigrationRunner|19: remove_showrss migrating
+2025-08-15 19:52:55.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.0|Info|remove_showrss|Starting migration of Log DB to 19
+2025-08-15 19:52:55.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (19, '2025-08-15T19:52:55', 'remove_showrss')
+2025-08-15 19:52:55.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.1|Info|FluentMigrator.Runner.MigrationRunner|19: remove_showrss migrated
+2025-08-15 19:52:55.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0923018s
+2025-08-15 19:52:55.1|Info|FluentMigrator.Runner.MigrationRunner|20: remove_torrentparadiseml migrating
+2025-08-15 19:52:55.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.2|Info|remove_torrentparadiseml|Starting migration of Log DB to 20
+2025-08-15 19:52:55.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (20, '2025-08-15T19:52:55', 'remove_torrentparadiseml')
+2025-08-15 19:52:55.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.2|Info|FluentMigrator.Runner.MigrationRunner|20: remove_torrentparadiseml migrated
+2025-08-15 19:52:55.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0924154s
+2025-08-15 19:52:55.3|Info|FluentMigrator.Runner.MigrationRunner|21: localization_setting_to_string migrating
+2025-08-15 19:52:55.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.3|Info|localization_setting_to_string|Starting migration of Log DB to 21
+2025-08-15 19:52:55.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (21, '2025-08-15T19:52:55', 'localization_setting_to_string')
+2025-08-15 19:52:55.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.4|Info|FluentMigrator.Runner.MigrationRunner|21: localization_setting_to_string migrated
+2025-08-15 19:52:55.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0823764s
+2025-08-15 19:52:55.4|Info|FluentMigrator.Runner.MigrationRunner|22: orpheus_api migrating
+2025-08-15 19:52:55.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.5|Info|orpheus_api|Starting migration of Log DB to 22
+2025-08-15 19:52:55.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (22, '2025-08-15T19:52:55', 'orpheus_api')
+2025-08-15 19:52:55.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.5|Info|FluentMigrator.Runner.MigrationRunner|22: orpheus_api migrated
+2025-08-15 19:52:55.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0906027s
+2025-08-15 19:52:55.6|Info|FluentMigrator.Runner.MigrationRunner|23: download_client_categories migrating
+2025-08-15 19:52:55.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.6|Info|download_client_categories|Starting migration of Log DB to 23
+2025-08-15 19:52:55.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (23, '2025-08-15T19:52:55', 'download_client_categories')
+2025-08-15 19:52:55.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.7|Info|FluentMigrator.Runner.MigrationRunner|23: download_client_categories migrated
+2025-08-15 19:52:55.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1203306s
+2025-08-15 19:52:55.8|Info|FluentMigrator.Runner.MigrationRunner|24: add_salt_to_users migrating
+2025-08-15 19:52:55.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:55.8|Info|add_salt_to_users|Starting migration of Log DB to 24
+2025-08-15 19:52:55.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (24, '2025-08-15T19:52:55', 'add_salt_to_users')
+2025-08-15 19:52:55.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:55.9|Info|FluentMigrator.Runner.MigrationRunner|24: add_salt_to_users migrated
+2025-08-15 19:52:55.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0944022s
+2025-08-15 19:52:56.0|Info|FluentMigrator.Runner.MigrationRunner|25: speedcd_userpasssettings_to_speedcdsettings migrating
+2025-08-15 19:52:56.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.0|Info|speedcd_userpasssettings_to_speedcdsettings|Starting migration of Log DB to 25
+2025-08-15 19:52:56.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (25, '2025-08-15T19:52:56', 'speedcd_userpasssettings_to_speedcdsettings')
+2025-08-15 19:52:56.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:56.1|Info|FluentMigrator.Runner.MigrationRunner|25: speedcd_userpasssettings_to_speedcdsettings migrated
+2025-08-15 19:52:56.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1090349s
+2025-08-15 19:52:56.1|Info|FluentMigrator.Runner.MigrationRunner|26: torrentday_cookiesettings_to_torrentdaysettings migrating
+2025-08-15 19:52:56.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.2|Info|torrentday_cookiesettings_to_torrentdaysettings|Starting migration of Log DB to 26
+2025-08-15 19:52:56.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (26, '2025-08-15T19:52:56', 'torrentday_cookiesettings_to_torrentdaysettings')
+2025-08-15 19:52:56.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:56.3|Info|FluentMigrator.Runner.MigrationRunner|26: torrentday_cookiesettings_to_torrentdaysettings migrated
+2025-08-15 19:52:56.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1251914s
+2025-08-15 19:52:56.3|Info|FluentMigrator.Runner.MigrationRunner|27: alpharatio_greatposterwall_config_contract migrating
+2025-08-15 19:52:56.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.4|Info|alpharatio_greatposterwall_config_contract|Starting migration of Log DB to 27
+2025-08-15 19:52:56.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (27, '2025-08-15T19:52:56', 'alpharatio_greatposterwall_config_contract')
+2025-08-15 19:52:56.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:56.5|Info|FluentMigrator.Runner.MigrationRunner|27: alpharatio_greatposterwall_config_contract migrated
+2025-08-15 19:52:56.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1024706s
+2025-08-15 19:52:56.5|Info|FluentMigrator.Runner.MigrationRunner|28: remove_notwhatcd migrating
+2025-08-15 19:52:56.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.5|Info|remove_notwhatcd|Starting migration of Log DB to 28
+2025-08-15 19:52:56.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (28, '2025-08-15T19:52:56', 'remove_notwhatcd')
+2025-08-15 19:52:56.6|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-15 19:52:56.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:56.6|Info|FluentMigrator.Runner.MigrationRunner|28: remove_notwhatcd migrated
+2025-08-15 19:52:56.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0972332s
+2025-08-15 19:52:56.7|Info|FluentMigrator.Runner.MigrationRunner|29: add_on_grab_to_notifications migrating
+2025-08-15 19:52:56.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.7|Info|add_on_grab_to_notifications|Starting migration of Log DB to 29
+2025-08-15 19:52:56.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (29, '2025-08-15T19:52:56', 'add_on_grab_to_notifications')
+2025-08-15 19:52:56.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:56.8|Info|FluentMigrator.Runner.MigrationRunner|29: add_on_grab_to_notifications migrated
+2025-08-15 19:52:56.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0910418s
+2025-08-15 19:52:56.8|Info|FluentMigrator.Runner.MigrationRunner|30: animetorrents_use_custom_config_contract migrating
+2025-08-15 19:52:56.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:56.9|Info|animetorrents_use_custom_config_contract|Starting migration of Log DB to 30
+2025-08-15 19:52:56.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (30, '2025-08-15T19:52:56', 'animetorrents_use_custom_config_contract')
+2025-08-15 19:52:56.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.0|Info|FluentMigrator.Runner.MigrationRunner|30: animetorrents_use_custom_config_contract migrated
+2025-08-15 19:52:57.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1340073s
+2025-08-15 19:52:57.0|Info|FluentMigrator.Runner.MigrationRunner|31: apprise_server_url migrating
+2025-08-15 19:52:57.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.1|Info|apprise_server_url|Starting migration of Log DB to 31
+2025-08-15 19:52:57.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (31, '2025-08-15T19:52:57', 'apprise_server_url')
+2025-08-15 19:52:57.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.1|Info|FluentMigrator.Runner.MigrationRunner|31: apprise_server_url migrated
+2025-08-15 19:52:57.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0950235s
+2025-08-15 19:52:57.2|Info|FluentMigrator.Runner.MigrationRunner|32: health_restored_notification migrating
+2025-08-15 19:52:57.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.2|Info|health_restored_notification|Starting migration of Log DB to 32
+2025-08-15 19:52:57.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (32, '2025-08-15T19:52:57', 'health_restored_notification')
+2025-08-15 19:52:57.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.3|Info|FluentMigrator.Runner.MigrationRunner|32: health_restored_notification migrated
+2025-08-15 19:52:57.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0865058s
+2025-08-15 19:52:57.3|Info|FluentMigrator.Runner.MigrationRunner|33: remove_uc migrating
+2025-08-15 19:52:57.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.4|Info|remove_uc|Starting migration of Log DB to 33
+2025-08-15 19:52:57.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (33, '2025-08-15T19:52:57', 'remove_uc')
+2025-08-15 19:52:57.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.4|Info|FluentMigrator.Runner.MigrationRunner|33: remove_uc migrated
+2025-08-15 19:52:57.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0806644s
+2025-08-15 19:52:57.5|Info|FluentMigrator.Runner.MigrationRunner|34: history_fix_data_titles migrating
+2025-08-15 19:52:57.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.5|Info|history_fix_data_titles|Starting migration of Log DB to 34
+2025-08-15 19:52:57.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (34, '2025-08-15T19:52:57', 'history_fix_data_titles')
+2025-08-15 19:52:57.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.6|Info|FluentMigrator.Runner.MigrationRunner|34: history_fix_data_titles migrated
+2025-08-15 19:52:57.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.079607s
+2025-08-15 19:52:57.6|Info|FluentMigrator.Runner.MigrationRunner|35: download_client_per_indexer migrating
+2025-08-15 19:52:57.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.7|Info|download_client_per_indexer|Starting migration of Log DB to 35
+2025-08-15 19:52:57.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (35, '2025-08-15T19:52:57', 'download_client_per_indexer')
+2025-08-15 19:52:57.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:57.7|Info|FluentMigrator.Runner.MigrationRunner|35: download_client_per_indexer migrated
+2025-08-15 19:52:57.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0943762s
+2025-08-15 19:52:57.8|Info|FluentMigrator.Runner.MigrationRunner|36: postgres_update_timestamp_columns_to_with_timezone migrating
+2025-08-15 19:52:57.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:57.8|Info|postgres_update_timestamp_columns_to_with_timezone|Starting migration of Log DB to 36
+2025-08-15 19:52:57.9|Info|FluentMigrator.Runner.MigrationRunner|AlterTable Logs
+2025-08-15 19:52:57.9|Info|FluentMigrator.Runner.MigrationRunner|=> 4.9E-06s
+2025-08-15 19:52:57.9|Info|FluentMigrator.Runner.MigrationRunner|AlterColumn Logs Time DateTimeOffset
+2025-08-15 19:52:57.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "Logs_temp" ("Id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, "Message" TEXT NOT NULL, "Time" DATETIME NOT NULL, "Logger" TEXT NOT NULL, "Exception" TEXT, "ExceptionType" TEXT, "Level" TEXT NOT NULL)
+2025-08-15 19:52:57.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "Logs_temp" ("Id", "Message", "Time", "Logger", "Exception", "ExceptionType", "Level") SELECT "Id", "Message", "Time", "Logger", "Exception", "ExceptionType", "Level" FROM "Logs"
+2025-08-15 19:52:58.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|DROP TABLE "Logs"
+2025-08-15 19:52:58.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|ALTER TABLE "Logs_temp" RENAME TO "Logs"
+2025-08-15 19:52:58.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE INDEX "IX_Logs_Time" ON "Logs" ("Time" ASC)
+2025-08-15 19:52:58.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1497235s
+2025-08-15 19:52:58.1|Info|FluentMigrator.Runner.MigrationRunner|AlterTable UpdateHistory
+2025-08-15 19:52:58.1|Info|FluentMigrator.Runner.MigrationRunner|=> 5.9E-06s
+2025-08-15 19:52:58.1|Info|FluentMigrator.Runner.MigrationRunner|AlterColumn UpdateHistory Date DateTimeOffset
+2025-08-15 19:52:58.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "UpdateHistory_temp" ("Id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, "Date" DATETIME NOT NULL, "Version" TEXT NOT NULL, "EventType" INTEGER NOT NULL)
+2025-08-15 19:52:58.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "UpdateHistory_temp" ("Id", "Date", "Version", "EventType") SELECT "Id", "Date", "Version", "EventType" FROM "UpdateHistory"
+2025-08-15 19:52:58.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|DROP TABLE "UpdateHistory"
+2025-08-15 19:52:58.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|ALTER TABLE "UpdateHistory_temp" RENAME TO "UpdateHistory"
+2025-08-15 19:52:58.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE INDEX "IX_UpdateHistory_Date" ON "UpdateHistory" ("Date" ASC)
+2025-08-15 19:52:58.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1176477s
+2025-08-15 19:52:58.3|Info|FluentMigrator.Runner.MigrationRunner|AlterTable VersionInfo
+2025-08-15 19:52:58.3|Info|FluentMigrator.Runner.MigrationRunner|=> 6.6E-06s
+2025-08-15 19:52:58.4|Info|FluentMigrator.Runner.MigrationRunner|AlterColumn VersionInfo AppliedOn DateTimeOffset
+2025-08-15 19:52:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE TABLE "VersionInfo_temp" ("Version" INTEGER NOT NULL, "AppliedOn" DATETIME, "Description" TEXT)
+2025-08-15 19:52:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo_temp" ("Version", "AppliedOn", "Description") SELECT "Version", "AppliedOn", "Description" FROM "VersionInfo"
+2025-08-15 19:52:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|DROP TABLE "VersionInfo"
+2025-08-15 19:52:58.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|ALTER TABLE "VersionInfo_temp" RENAME TO "VersionInfo"
+2025-08-15 19:52:58.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|CREATE UNIQUE INDEX "UC_Version" ON "VersionInfo" ("Version" ASC)
+2025-08-15 19:52:58.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1073814s
+2025-08-15 19:52:58.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (36, '2025-08-15T19:52:58', 'postgres_update_timestamp_columns_to_with_timezone')
+2025-08-15 19:52:58.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:58.6|Info|FluentMigrator.Runner.MigrationRunner|36: postgres_update_timestamp_columns_to_with_timezone migrated
+2025-08-15 19:52:58.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1783793s
+2025-08-15 19:52:58.6|Info|FluentMigrator.Runner.MigrationRunner|37: add_notification_status migrating
+2025-08-15 19:52:58.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:58.6|Info|add_notification_status|Starting migration of Log DB to 37
+2025-08-15 19:52:58.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (37, '2025-08-15T19:52:58', 'add_notification_status')
+2025-08-15 19:52:58.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:58.7|Info|FluentMigrator.Runner.MigrationRunner|37: add_notification_status migrated
+2025-08-15 19:52:58.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0837497s
+2025-08-15 19:52:58.8|Info|FluentMigrator.Runner.MigrationRunner|38: indexers_freeleech_only_config_contract migrating
+2025-08-15 19:52:58.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:58.8|Info|indexers_freeleech_only_config_contract|Starting migration of Log DB to 38
+2025-08-15 19:52:58.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (38, '2025-08-15T19:52:58', 'indexers_freeleech_only_config_contract')
+2025-08-15 19:52:58.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:58.9|Info|FluentMigrator.Runner.MigrationRunner|38: indexers_freeleech_only_config_contract migrated
+2025-08-15 19:52:58.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0932571s
+2025-08-15 19:52:58.9|Info|FluentMigrator.Runner.MigrationRunner|39: email_encryption migrating
+2025-08-15 19:52:58.9|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:58.9|Info|email_encryption|Starting migration of Log DB to 39
+2025-08-15 19:52:59.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (39, '2025-08-15T19:52:59', 'email_encryption')
+2025-08-15 19:52:59.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:59.0|Info|FluentMigrator.Runner.MigrationRunner|39: email_encryption migrated
+2025-08-15 19:52:59.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0997988s
+2025-08-15 19:52:59.1|Info|FluentMigrator.Runner.MigrationRunner|40: newznab_category_to_capabilities_settings migrating
+2025-08-15 19:52:59.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:59.1|Info|newznab_category_to_capabilities_settings|Starting migration of Log DB to 40
+2025-08-15 19:52:59.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (40, '2025-08-15T19:52:59', 'newznab_category_to_capabilities_settings')
+2025-08-15 19:52:59.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:59.2|Info|FluentMigrator.Runner.MigrationRunner|40: newznab_category_to_capabilities_settings migrated
+2025-08-15 19:52:59.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0847457s
+2025-08-15 19:52:59.2|Info|FluentMigrator.Runner.MigrationRunner|41: gazelle_freeleech_token_options migrating
+2025-08-15 19:52:59.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:59.3|Info|gazelle_freeleech_token_options|Starting migration of Log DB to 41
+2025-08-15 19:52:59.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (41, '2025-08-15T19:52:59', 'gazelle_freeleech_token_options')
+2025-08-15 19:52:59.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:59.3|Info|FluentMigrator.Runner.MigrationRunner|41: gazelle_freeleech_token_options migrated
+2025-08-15 19:52:59.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0960021s
+2025-08-15 19:52:59.4|Info|FluentMigrator.Runner.MigrationRunner|42: myanonamouse_freeleech_wedge_options migrating
+2025-08-15 19:52:59.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Beginning Transaction
+2025-08-15 19:52:59.4|Info|myanonamouse_freeleech_wedge_options|Starting migration of Log DB to 42
+2025-08-15 19:52:59.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|INSERT INTO "VersionInfo" ("Version", "AppliedOn", "Description") VALUES (42, '2025-08-15T19:52:59', 'myanonamouse_freeleech_wedge_options')
+2025-08-15 19:52:59.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Committing Transaction
+2025-08-15 19:52:59.5|Info|FluentMigrator.Runner.MigrationRunner|42: myanonamouse_freeleech_wedge_options migrated
+2025-08-15 19:52:59.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.093575s
+2025-08-15 19:52:59.5|Debug|MigrationController|Took: 00:00:08.2867817
+2025-08-15 19:52:59.9|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-08-15 19:52:59.9|Info|UpdaterConfigProvider|Update mechanism BuiltIn not supported in the current configuration, changing to Docker.
+2025-08-15 19:53:00.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-08-15 19:53:00.8|Info|AppSyncProfileService|Setting up default app profile
+2025-08-15 19:53:00.9|Debug|NotificationFactory|Initializing Providers. Count 20
+2025-08-15 19:53:00.9|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-08-15 19:53:01.0|Debug|HttpClient|Downloading [https://indexers.prowlarr.com/master/11/package.zip] to [/config/Definitions/indexers.zip]
+2025-08-15 19:53:01.5|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 346
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 352
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 376
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 316
+
+
+2025-08-15 19:53:01.8|Debug|IndexerFactory|Initializing Providers. Count 67
+2025-08-15 19:53:01.9|Debug|IndexerProxyFactory|Initializing Providers. Count 4
+2025-08-15 19:53:01.9|Debug|DownloadClientFactory|Initializing Providers. Count 18
+2025-08-15 19:53:01.9|Debug|ApplicationFactory|Initializing Providers. Count 7
+2025-08-15 19:53:01.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-15 19:53:01.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-15 19:53:02.0|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-08-15 19:53:02.1|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-15 20:04:08.9|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.0|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.0|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.0|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.1|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/customFilter: 200.OK (74 ms)
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/indexerStatus: 200.OK (66 ms)
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/tag: 200.OK (73 ms)
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/appprofile: 200.OK (75 ms)
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/indexer/categories: 200.OK (67 ms)
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/indexer: 200.OK (81 ms)
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.5|Debug|Api|[GET] /api/v1/config/ui: 200.OK (62 ms)
+2025-08-15 20:04:09.6|Debug|Api|[GET] /api/v1/system/status: 200.OK (89 ms)
+2025-08-15 20:04:09.6|Debug|Api|[GET] /api/v1/localization: 200.OK (96 ms)
+2025-08-15 20:04:09.6|Debug|Api|[GET] /api/v1/config/host: 200.OK (114 ms)
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.NoAuthenticationHandler|AuthenticationScheme: None was successfully authenticated.
+2025-08-15 20:04:09.7|Debug|Api|[GET] /api/v1/health: 200.OK (39 ms)
+2025-08-15 20:04:09.7|Debug|Api|[GET] /api/v1/config/host: 200.OK (48 ms)
+2025-08-15 20:04:09.7|Debug|Api|[GET] /api/v1/indexer: 200.OK (45 ms)
+2025-08-15 20:04:09.7|Debug|Api|[GET] /api/v1/indexerStatus: 200.OK (53 ms)
+2025-08-15 20:04:09.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-08-15 20:04:25.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:25.8|Debug|Api|[PUT] /api/v1/config/host: 202.Accepted (589 ms)
+2025-08-15 20:04:25.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:04:25.8|Debug|Api|[GET] /api/v1/system/status: 200.OK (12 ms)
+2025-08-15 20:09:01.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:09:01.1|Debug|Api|[GET] /api/v1/command: 200.OK (34 ms)
+2025-08-15 20:09:01.1|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Prowlarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-15 20:09:01.5|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-15 20:09:01.6|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-15 20:09:01.7|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 187
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_1`1.<PublishEvent>b__1() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 108
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-15 20:09:22.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:09:22.6|Debug|Api|[GET] /api/v1/indexerStats?endDate=2025-08-15T20%3A09%3A22.533Z: 200.OK (74 ms)
+2025-08-15 20:14:31.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:14:31.1|Debug|Api|[GET] /api/v1/command: 200.OK (10 ms)
+2025-08-15 20:20:01.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:20:01.1|Debug|Api|[GET] /api/v1/command: 200.OK (13 ms)
+2025-08-15 20:25:31.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:25:31.1|Debug|Api|[GET] /api/v1/command: 200.OK (12 ms)
+2025-08-15 20:31:01.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:31:01.1|Debug|Api|[GET] /api/v1/command: 200.OK (9 ms)
+2025-08-15 20:36:31.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:36:31.1|Debug|Api|[GET] /api/v1/command: 200.OK (11 ms)
+2025-08-15 20:42:01.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:42:01.2|Debug|Api|[GET] /api/v1/command: 200.OK (12 ms)
+2025-08-15 20:42:39.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:42:39.3|Debug|Api|[GET] /api/v1/indexerProxy: 200.OK (34 ms)
+2025-08-15 20:42:40.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:42:40.3|Debug|Api|[GET] /api/v1/indexerProxy/schema: 200.OK (53 ms)
+2025-08-15 20:43:42.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:43:42.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:43:42.1|Debug|Api|[GET] /api/v1/appprofile: 200.OK (24 ms)
+2025-08-15 20:43:42.1|Debug|Api|[GET] /api/v1/applications: 200.OK (28 ms)
+2025-08-15 20:43:45.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:43:45.7|Debug|Api|[GET] /api/v1/downloadclient: 200.OK (29 ms)
+2025-08-15 20:43:48.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:43:48.4|Debug|Api|[GET] /api/v1/downloadclient/schema: 200.OK (67 ms)
+2025-08-15 20:43:55.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:43:55.3|Debug|Api|[GET] /api/v1/notification: 200.OK (19 ms)
+2025-08-15 20:47:31.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:47:31.2|Debug|Api|[GET] /api/v1/command: 200.OK (11 ms)
+2025-08-15 20:53:01.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:53:01.2|Debug|Api|[GET] /api/v1/command: 200.OK (10 ms)
+2025-08-15 20:58:31.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 20:58:31.3|Debug|Api|[GET] /api/v1/command: 200.OK (11 ms)
+2025-08-15 21:04:01.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-08-15 21:04:01.2|Debug|Api|[GET] /api/v1/command: 200.OK (10 ms)
+2025-08-15 21:06:34.8|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-08-15 21:06:35.6|Info|ConsoleApp|Exiting main.
