@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   radarr:
-    image: radarr/radarr
+    image: linuxserver/radarr
     container_name: radarr
     network_mode: "bridge"
     volumes:
@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 
   sonarr:
-    image: sonarr/sonarr
+    image: linuxserver/sonarr
     container_name: sonarr
     network_mode: "bridge"
     volumes:
@@ -35,7 +35,7 @@ services:
     restart: unless-stopped
 
   prowlarr:
-    image: prowlarr/prowlarr
+    image: linuxserver/prowlarr
     container_name: prowlarr
     network_mode: "bridge"
     volumes:
@@ -45,7 +45,7 @@ services:
     restart: unless-stopped
 
   jellyseerr:
-    image: jellyseerr/jellyseerr
+    image: fallenbagel/jellyseerr
     container_name: jellyseerr
     network_mode: "bridge"
     volumes:
@@ -53,3 +53,16 @@ services:
     ports:
       - "5055:5055"    # Change if needed
     restart: unless-stopped
+
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    network_mode: "bridge"
+    volumes:
+      - ./qbittorrent/appdata:/config
+      - ./qbittorrent/downloads:/downloads #optional
+    ports:
+      - "8080:8080"
+      - "6881:6881"
+      - "6881:6881/udp"
+    restart: unless-stopped  
