@@ -1714,3 +1714,1052 @@
 
 2025-08-15 21:24:06.5|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
  -- : Unable to connect to indexer, please check your DNS settings and ensure IPv6 is working or disabled. The SSL connection could not be established, see inner exception.
+2025-08-15 21:29:00.9|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-16 09:03:47.3|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-18 13:11:46.1|Info|HousekeepingService|Running housecleaning tasks
+2025-08-18 13:11:50.1|Info|Database|Vacuuming Log database
+2025-08-18 13:11:50.8|Info|Database|Log database compressed
+2025-08-18 13:11:52.1|Info|Database|Vacuuming Main database
+2025-08-18 13:11:53.7|Info|Database|Main database compressed
+2025-08-18 13:11:55.5|Info|HistoryService|Removing items older than 30 days from history
+2025-08-18 13:12:12.5|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 187
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_1`1.<PublishEvent>b__1() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 108
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-18 13:12:21.5|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Prowlarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-18 13:12:24.9|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 85
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-08-18 13:13:14.8|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: Operation timed out (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (110): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-18 13:14:56.8|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 85
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-08-18 13:47:17.4|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.37.0.5076
+2025-08-18 13:47:17.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:18.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:19.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:19.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-18 13:47:20.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-18 13:47:20.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-18 13:47:20.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-18 13:47:20.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-18 13:47:20.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.2984851s
+2025-08-18 13:47:20.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-18 13:47:20.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.333969s
+2025-08-18 13:47:20.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-18 13:47:20.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-18 13:47:21.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-18 13:47:21.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-18 13:47:21.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-18 13:47:21.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1948744s
+2025-08-18 13:47:21.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-18 13:47:21.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.2293509s
+2025-08-18 13:47:22.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-08-18 13:47:22.9|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-08-18 13:47:23.9|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-18 13:47:24.0|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 346
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 352
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 376
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 316
+
+
+2025-08-18 13:47:24.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-18 13:47:24.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-18 13:47:24.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-08-18 13:47:25.1|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Prowlarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-18 13:47:25.5|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-18 13:47:25.9|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-18 13:47:26.2|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-18 13:47:54.0|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 346
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 352
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 376
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 316
+
+
+2025-08-18 14:04:23.9|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-18 14:04:24.2|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-18 14:04:24.4|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 187
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_1`1.<PublishEvent>b__1() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 108
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-19 13:59:48.7|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.37.0.5076
+2025-08-19 13:59:49.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:49.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:52.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:54.6|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-19 13:59:55.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-19 13:59:55.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-19 13:59:55.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-19 13:59:55.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-19 13:59:55.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.4908787s
+2025-08-19 13:59:55.9|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-19 13:59:55.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.5457748s
+2025-08-19 13:59:56.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-19 13:59:56.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-19 13:59:56.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-19 13:59:56.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-19 13:59:56.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-19 13:59:56.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1423267s
+2025-08-19 13:59:56.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-19 13:59:56.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1819985s
+2025-08-19 13:59:58.2|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-08-19 13:59:59.4|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-08-19 14:00:00.1|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-19 14:00:00.4|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 346
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 352
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 376
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 316
+
+
+2025-08-19 14:00:01.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-19 14:00:01.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-19 14:00:01.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2025-08-19 14:00:01.6|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Prowlarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-19 14:00:02.1|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-19 14:00:02.4|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-19 14:00:02.7|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-19 14:00:30.1|Info|HistoryService|Removing items older than 30 days from history
+2025-08-19 14:00:30.2|Info|HousekeepingService|Running housecleaning tasks
+2025-08-19 14:00:30.2|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 85
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-08-19 14:00:30.3|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-19 14:00:30.5|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 346
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 352
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 376
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 316
+
+
+2025-08-19 14:00:30.7|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 85
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-08-19 14:00:31.1|Info|Database|Vacuuming Log database
+2025-08-19 14:00:31.2|Info|Database|Log database compressed
+2025-08-19 14:00:31.2|Info|Database|Vacuuming Main database
+2025-08-19 14:00:31.3|Info|Database|Main database compressed
+2025-08-19 14:16:30.5|Warn|IndexerDefinitionUpdateService|Error while getting indexer definitions, fallback to reading from disk.
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.All() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 95
+
+
+2025-08-19 14:16:30.9|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-19 14:16:31.0|Error|TaskExtensions|Task Error
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 187
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_1`1.<PublishEvent>b__1() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 108
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2025-08-19 15:44:36.1|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-19 15:44:36.6|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-19 15:45:18.1|Error|QBittorrent|Unable to test qBittorrent
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: Host is unreachable (172.17.0.16:8080)
+ ---> System.Net.Sockets.SocketException (113): Host is unreachable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 35
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 81
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 76
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Prowlarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 76
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 59
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.TestConnection() in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 211
+
+
+2025-08-19 15:45:18.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- Host: Unable to connect to qBittorrent
+2025-08-19 15:45:23.1|Error|QBittorrent|Unable to test qBittorrent
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: Host is unreachable (172.17.0.16:8080)
+ ---> System.Net.Sockets.SocketException (113): Host is unreachable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 355
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 35
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 81
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 76
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Prowlarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 76
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 59
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.TestConnection() in ./Prowlarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 211
+
+
+2025-08-19 15:45:23.2|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- Host: Unable to connect to qBittorrent
+2025-08-19 15:48:55.6|Warn|Radarr|Unable to complete application test
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: Connection refused (localhost:7878)
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 366
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 341
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexerSchema(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 80
+   at NzbDrone.Core.Applications.Radarr.Radarr.<>c__DisplayClass11_0.<BuildRadarrIndexer>b__0() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 231
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Prowlarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Applications.Radarr.Radarr.BuildRadarrIndexer(IndexerDefinition indexer, IndexerCapabilities indexerCapabilities, DownloadProtocol protocol, Int32 id) in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 231
+   at NzbDrone.Core.Applications.Radarr.Radarr.Test() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 52
+
+
+2025-08-19 15:48:55.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- BaseUrl: Unable to complete application test, cannot connect to Radarr. Connection refused (localhost:7878)
+2025-08-19 15:49:22.0|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- BaseUrl: Invalid Url: '172.17.0.7:7878'
+2025-08-19 15:49:44.9|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [POST] http://172.17.0.7:7878/api/v3/indexer/test: 400.BadRequest (243 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Unable to connect to indexer, please check your DNS settings and ensure IPv6 is working or disabled. Connection refused (localhost:9696)",
+    "severity": "error"
+  }
+]
+2025-08-19 15:49:45.0|Warn|Radarr|Prowlarr URL is invalid
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://172.17.0.7:7878/api/v3/indexer/test]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Post(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 423
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.TestConnection(RadarrIndexer indexer, RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 132
+   at NzbDrone.Core.Applications.Radarr.Radarr.Test() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 52
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Unable to connect to indexer, please check your DNS settings and ensure IPv6 is working or disabled. Connection refused (localhost:9696)",
+    "severity": "error"
+  }
+]
+
+
+2025-08-19 15:49:45.0|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- ProwlarrUrl: Prowlarr URL is invalid, Radarr cannot connect to Prowlarr
+2025-08-19 15:51:31.3|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- ApiKey: 'Api Key' must not be empty.
+2025-08-19 20:02:11.3|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.RetrieveServerChecks() in ./Prowlarr.Core/HealthCheck/ServerSideNotificationService.cs:line 61
+
+
+2025-08-19 20:02:11.6|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-08-19 20:03:51.6|Warn|SystemTimeCheck|Unable to verify system time
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 38
+
+
+2025-08-19 20:05:00.9|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.37.0.5076] System.Net.Http.HttpRequestException: Operation timed out (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (110): Operation timed out
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 366
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 342
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 393
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 401
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 59
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+

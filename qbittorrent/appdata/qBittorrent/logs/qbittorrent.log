@@ -24,3 +24,78 @@
 (N) 2025-08-15T21:06:35 - Saving resume data completed.
 (N) 2025-08-15T21:06:35 - BitTorrent session successfully finished.
 (N) 2025-08-15T21:06:35 - qBittorrent is now ready to exit
+(N) 2025-08-15T21:10:14 - qBittorrent v5.1.2 started. Process ID: 149
+(N) 2025-08-15T21:10:14 - Using config directory: /config/qBittorrent
+(N) 2025-08-15T21:10:14 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-15T21:10:14 - Peer ID: "-qB5120-"
+(I) 2025-08-15T21:10:14 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-15T21:10:14 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-15T21:10:14 - Local Peer Discovery support: ON
+(I) 2025-08-15T21:10:14 - Peer Exchange (PeX) support: ON
+(I) 2025-08-15T21:10:14 - Anonymous mode: OFF
+(I) 2025-08-15T21:10:14 - Encryption support: ON
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "172.17.0.4". Port: "TCP/6881"
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "172.17.0.4". Port: "UTP/6881"
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-15T21:10:14 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-15T21:10:14 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-15T21:10:14 - Using built-in WebUI.
+(W) 2025-08-15T21:10:14 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-08-15T21:10:14 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-15T21:10:15 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-15T21:10:15 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(N) 2025-08-18T13:47:15 - qBittorrent v5.1.2 started. Process ID: 145
+(N) 2025-08-18T13:47:15 - Using config directory: /config/qBittorrent
+(N) 2025-08-18T13:47:16 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-18T13:47:16 - Peer ID: "-qB5120-"
+(I) 2025-08-18T13:47:16 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-18T13:47:16 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-18T13:47:16 - Local Peer Discovery support: ON
+(I) 2025-08-18T13:47:16 - Peer Exchange (PeX) support: ON
+(I) 2025-08-18T13:47:16 - Anonymous mode: OFF
+(I) 2025-08-18T13:47:16 - Encryption support: ON
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "172.17.0.3". Port: "TCP/6881"
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "172.17.0.3". Port: "UTP/6881"
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-18T13:47:16 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-18T13:47:16 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-18T13:47:16 - Using built-in WebUI.
+(W) 2025-08-18T13:47:16 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-08-18T13:47:16 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-18T13:47:16 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-18T13:47:16 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(N) 2025-08-19T13:59:47 - qBittorrent v5.1.2 started. Process ID: 147
+(N) 2025-08-19T13:59:47 - Using config directory: /config/qBittorrent
+(N) 2025-08-19T13:59:47 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-19T13:59:47 - Peer ID: "-qB5120-"
+(I) 2025-08-19T13:59:47 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-19T13:59:47 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-19T13:59:47 - Local Peer Discovery support: ON
+(I) 2025-08-19T13:59:47 - Peer Exchange (PeX) support: ON
+(I) 2025-08-19T13:59:47 - Anonymous mode: OFF
+(I) 2025-08-19T13:59:47 - Encryption support: ON
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "172.17.0.6". Port: "TCP/6881"
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "172.17.0.6". Port: "UTP/6881"
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-19T13:59:47 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-19T13:59:47 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-19T13:59:48 - Using built-in WebUI.
+(W) 2025-08-19T13:59:48 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-08-19T13:59:48 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-19T13:59:48 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-19T13:59:48 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(W) 2025-08-19T15:33:30 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.17.0.1, username: admin
+(W) 2025-08-19T15:33:34 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:172.17.0.1, username: admin
+(W) 2025-08-19T15:34:01 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:172.17.0.1, username: admin
+(W) 2025-08-19T15:34:07 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:172.17.0.1, username: root
+(N) 2025-08-19T15:35:06 - WebAPI login success. IP: ::ffff:172.17.0.1
+(N) 2025-08-19T15:35:45 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-19T15:42:01 - WebAPI login success. IP: ::ffff:172.17.0.7
+(N) 2025-08-19T15:42:28 - WebAPI login success. IP: ::ffff:172.17.0.5
+(N) 2025-08-19T15:45:27 - WebAPI login success. IP: ::ffff:172.17.0.2

@@ -5568,3 +5568,1129 @@
    at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
    at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewSeries(String title) in ./Sonarr.Core/MetadataSource/SkyHook/SkyHookProxy.cs:line 143
 
+2025-08-15 21:26:00.2|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:26:00.3|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-15 21:26:00.4|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:26:00.5|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-15 21:26:00.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-15 21:26:00.6|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 188
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-15 21:26:22.0|Info|RssSyncService|Starting RSS Sync
+2025-08-15 21:26:22.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-15 21:26:22.0|Info|DownloadDecisionMaker|No results found
+2025-08-15 21:26:22.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-16 00:57:49.6|Info|SceneMappingService|Updating Scene mappings
+2025-08-16 00:57:50.6|Info|RssSyncService|Starting RSS Sync
+2025-08-16 00:57:51.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-16 00:57:52.4|Info|DownloadDecisionMaker|No results found
+2025-08-16 00:57:53.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-16 09:04:15.3|Info|RssSyncService|Starting RSS Sync
+2025-08-16 09:04:36.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-16 09:04:42.1|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames() in ./Sonarr.Core/DataAugmentation/Xem/XemProxy.cs:line 81
+   at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Xem/XemService.cs:line 230
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-16 09:04:45.5|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: Name does not resolve (services.sonarr.tv:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 327
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 313
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-16 09:04:50.0|Info|DownloadDecisionMaker|No results found
+2025-08-18 13:11:53.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 13:13:30.6|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-18 13:13:58.6|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingProxy.cs:line 29
+   at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Scene/ServicesProvider.cs:line 16
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-18 13:14:01.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2025-08-18 13:14:04.7|Info|HousekeepingService|Running housecleaning tasks
+2025-08-18 13:15:09.8|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 116
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-18 13:15:18.5|Info|Database|Vacuuming Log database
+2025-08-18 13:15:18.5|Info|Database|Log database compressed
+2025-08-18 13:15:18.6|Info|Database|Vacuuming Main database
+2025-08-18 13:15:18.7|Info|Database|Main database compressed
+2025-08-18 13:47:17.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr - Version 4.0.15.2941
+2025-08-18 13:47:17.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:17.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:19.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-18 13:47:19.9|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-18 13:47:20.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-18 13:47:20.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-18 13:47:20.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-18 13:47:20.7|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-18 13:47:20.7|Info|FluentMigrator.Runner.MigrationRunner|=> 0.3865799s
+2025-08-18 13:47:20.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-18 13:47:20.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.4572582s
+2025-08-18 13:47:21.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-18 13:47:21.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-18 13:47:21.1|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-18 13:47:21.1|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-18 13:47:21.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-18 13:47:21.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1888067s
+2025-08-18 13:47:21.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-18 13:47:21.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.2727702s
+2025-08-18 13:47:22.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-08-18 13:47:24.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-18 13:47:24.6|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-18 13:47:24.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-08-18 13:47:24.8|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-18 13:47:25.2|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:25.3|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-18 13:47:26.2|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:26.2|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-18 13:47:26.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:26.8|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Sonarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-18 13:47:55.1|Info|RssSyncService|Starting RSS Sync
+2025-08-18 13:47:55.1|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:55.2|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-18 13:47:55.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 13:47:55.4|Info|DownloadDecisionMaker|No results found
+2025-08-18 13:47:55.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 13:47:55.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:55.6|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-18 13:47:55.8|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 13:47:55.9|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 84
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-18 14:03:00.8|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 14:03:00.8|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-18 14:03:01.4|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 14:03:01.4|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-18 14:03:01.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-18 14:03:01.6|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 188
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-18 14:03:25.1|Info|RssSyncService|Starting RSS Sync
+2025-08-18 14:03:25.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 14:03:25.1|Info|DownloadDecisionMaker|No results found
+2025-08-18 14:03:25.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 14:18:55.1|Info|RssSyncService|Starting RSS Sync
+2025-08-18 14:18:55.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 14:18:55.2|Info|DownloadDecisionMaker|No results found
+2025-08-18 14:18:55.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 14:34:25.2|Info|RssSyncService|Starting RSS Sync
+2025-08-18 14:34:25.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 14:34:25.2|Info|DownloadDecisionMaker|No results found
+2025-08-18 14:34:25.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 14:49:55.3|Info|RssSyncService|Starting RSS Sync
+2025-08-18 14:49:55.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 14:49:55.3|Info|DownloadDecisionMaker|No results found
+2025-08-18 14:49:55.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 15:05:25.4|Info|RssSyncService|Starting RSS Sync
+2025-08-18 15:05:25.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 15:05:25.4|Info|DownloadDecisionMaker|No results found
+2025-08-18 15:05:25.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 15:20:25.5|Info|RssSyncService|Starting RSS Sync
+2025-08-18 15:20:25.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 15:20:25.5|Info|DownloadDecisionMaker|No results found
+2025-08-18 15:20:25.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 15:35:25.6|Info|RssSyncService|Starting RSS Sync
+2025-08-18 15:35:25.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 15:35:25.7|Info|DownloadDecisionMaker|No results found
+2025-08-18 15:35:25.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-18 15:50:25.7|Info|RssSyncService|Starting RSS Sync
+2025-08-18 15:50:25.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-18 15:50:25.8|Info|DownloadDecisionMaker|No results found
+2025-08-18 15:50:25.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 13:59:48.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr - Version 4.0.15.2941
+2025-08-19 13:59:49.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:49.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:53.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-08-19 13:59:54.6|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-19 13:59:55.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-19 13:59:55.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-19 13:59:55.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-19 13:59:56.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-19 13:59:56.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.7668723s
+2025-08-19 13:59:56.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-19 13:59:56.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.821397s
+2025-08-19 13:59:56.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-08-19 13:59:56.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-08-19 13:59:56.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-08-19 13:59:56.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-08-19 13:59:56.9|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-08-19 13:59:56.9|Info|FluentMigrator.Runner.MigrationRunner|=> 0.134283s
+2025-08-19 13:59:57.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-08-19 13:59:57.0|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1661714s
+2025-08-19 13:59:59.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-08-19 14:00:01.0|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-08-19 14:00:01.1|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-08-19 14:00:01.2|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-08-19 14:00:01.4|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-08-19 14:00:02.0|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:02.1|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-19 14:00:03.0|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:03.1|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-19 14:00:03.2|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:03.4|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 162
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Sonarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-19 14:00:31.2|Info|HousekeepingService|Running housecleaning tasks
+2025-08-19 14:00:31.2|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2025-08-19 14:00:31.3|Info|RssSyncService|Starting RSS Sync
+2025-08-19 14:00:31.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 14:00:31.4|Info|DownloadDecisionMaker|No results found
+2025-08-19 14:00:31.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 14:00:31.5|Info|SceneMappingService|Updating Scene mappings
+2025-08-19 14:00:31.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:31.6|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-19 14:00:31.8|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:31.8|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-19 14:00:32.1|Error|X509CertificateValidationService|Certificate validation for thexem.info failed. RemoteCertificateChainErrors
+2025-08-19 14:00:32.2|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:32.4|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames() in ./Sonarr.Core/DataAugmentation/Xem/XemProxy.cs:line 81
+   at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Xem/XemService.cs:line 230
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 14:00:32.6|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 98
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 84
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-19 14:00:32.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:32.7|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingProxy.cs:line 29
+   at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Scene/ServicesProvider.cs:line 16
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 14:00:32.8|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:00:32.9|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 84
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-19 14:00:33.0|Info|Database|Vacuuming Log database
+2025-08-19 14:00:33.0|Info|Database|Log database compressed
+2025-08-19 14:00:33.1|Info|Database|Vacuuming Main database
+2025-08-19 14:00:33.5|Info|Database|Main database compressed
+2025-08-19 14:15:00.4|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:15:00.4|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-19 14:15:00.6|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:15:00.6|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-19 14:15:00.7|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 14:15:00.7|Error|TaskExtensions|Task Error
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 188
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+2025-08-19 14:16:01.4|Info|RssSyncService|Starting RSS Sync
+2025-08-19 14:16:01.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 14:16:01.5|Info|DownloadDecisionMaker|No results found
+2025-08-19 14:16:01.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 14:31:31.5|Info|RssSyncService|Starting RSS Sync
+2025-08-19 14:31:31.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 14:31:31.6|Info|DownloadDecisionMaker|No results found
+2025-08-19 14:31:31.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 14:47:01.6|Info|RssSyncService|Starting RSS Sync
+2025-08-19 14:47:01.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 14:47:01.6|Info|DownloadDecisionMaker|No results found
+2025-08-19 14:47:01.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 15:02:31.6|Info|RssSyncService|Starting RSS Sync
+2025-08-19 15:02:31.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 15:02:31.7|Info|DownloadDecisionMaker|No results found
+2025-08-19 15:02:31.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 15:18:01.7|Info|RssSyncService|Starting RSS Sync
+2025-08-19 15:18:01.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 15:18:01.7|Info|DownloadDecisionMaker|No results found
+2025-08-19 15:18:01.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 15:31:38.0|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-19 15:31:38.2|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-08-19 15:32:27.3|Warn|MediaBrowserProxy|Unable to send notification to Emby. If you're using Jellyfin disable 'Send Notifications'
+2025-08-19 15:32:28.6|Warn|MediaBrowserProxy|Unable to send notification to Emby. If you're using Jellyfin disable 'Send Notifications'
+2025-08-19 15:33:02.3|Info|RssSyncService|Starting RSS Sync
+2025-08-19 15:33:02.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 15:33:02.3|Info|DownloadDecisionMaker|No results found
+2025-08-19 15:33:02.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 15:48:32.3|Info|RssSyncService|Starting RSS Sync
+2025-08-19 15:48:32.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 15:48:32.4|Info|DownloadDecisionMaker|No results found
+2025-08-19 15:48:32.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 16:03:32.5|Info|RssSyncService|Starting RSS Sync
+2025-08-19 16:03:32.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 16:03:32.5|Info|DownloadDecisionMaker|No results found
+2025-08-19 16:03:32.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 16:19:02.5|Info|RssSyncService|Starting RSS Sync
+2025-08-19 16:19:02.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 16:19:02.6|Info|DownloadDecisionMaker|No results found
+2025-08-19 16:19:02.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 16:34:32.6|Info|RssSyncService|Starting RSS Sync
+2025-08-19 16:34:32.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 16:34:32.6|Info|DownloadDecisionMaker|No results found
+2025-08-19 16:34:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 16:50:02.7|Info|RssSyncService|Starting RSS Sync
+2025-08-19 16:50:02.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 16:50:02.7|Info|DownloadDecisionMaker|No results found
+2025-08-19 16:50:02.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 17:01:02.8|Info|SceneMappingService|Updating Scene mappings
+2025-08-19 17:01:03.1|Error|X509CertificateValidationService|Certificate validation for thexem.info failed. RemoteCertificateChainErrors
+2025-08-19 17:01:03.1|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames() in ./Sonarr.Core/DataAugmentation/Xem/XemProxy.cs:line 81
+   at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Xem/XemService.cs:line 230
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 17:01:03.5|Error|X509CertificateValidationService|Certificate validation for services.sonarr.tv failed. RemoteCertificateChainErrors
+2025-08-19 17:01:03.5|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingProxy.cs:line 29
+   at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Scene/ServicesProvider.cs:line 16
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 17:05:32.8|Info|RssSyncService|Starting RSS Sync
+2025-08-19 17:05:32.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 17:05:32.8|Info|DownloadDecisionMaker|No results found
+2025-08-19 17:05:32.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 17:21:02.8|Info|RssSyncService|Starting RSS Sync
+2025-08-19 17:21:02.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 17:21:02.9|Info|DownloadDecisionMaker|No results found
+2025-08-19 17:21:02.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 17:36:32.9|Info|RssSyncService|Starting RSS Sync
+2025-08-19 17:36:32.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 17:36:32.9|Info|DownloadDecisionMaker|No results found
+2025-08-19 17:36:32.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 17:52:02.9|Info|RssSyncService|Starting RSS Sync
+2025-08-19 17:52:03.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 17:52:03.0|Info|DownloadDecisionMaker|No results found
+2025-08-19 17:52:03.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 18:07:33.0|Info|RssSyncService|Starting RSS Sync
+2025-08-19 18:07:33.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 18:07:33.0|Info|DownloadDecisionMaker|No results found
+2025-08-19 18:07:33.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 18:23:03.1|Info|RssSyncService|Starting RSS Sync
+2025-08-19 18:23:03.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 18:23:03.2|Info|DownloadDecisionMaker|No results found
+2025-08-19 18:23:03.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 18:38:33.2|Info|RssSyncService|Starting RSS Sync
+2025-08-19 18:38:33.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 18:38:33.2|Info|DownloadDecisionMaker|No results found
+2025-08-19 18:38:33.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 18:54:03.3|Info|RssSyncService|Starting RSS Sync
+2025-08-19 18:54:03.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 18:54:03.3|Info|DownloadDecisionMaker|No results found
+2025-08-19 18:54:03.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 19:09:33.3|Info|RssSyncService|Starting RSS Sync
+2025-08-19 19:09:33.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 19:09:33.4|Info|DownloadDecisionMaker|No results found
+2025-08-19 19:09:33.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 19:24:33.5|Info|RssSyncService|Starting RSS Sync
+2025-08-19 19:24:33.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 19:24:33.5|Info|DownloadDecisionMaker|No results found
+2025-08-19 19:24:33.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 19:40:03.6|Info|RssSyncService|Starting RSS Sync
+2025-08-19 19:40:03.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 19:40:03.6|Info|DownloadDecisionMaker|No results found
+2025-08-19 19:40:03.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 19:55:33.6|Info|RssSyncService|Starting RSS Sync
+2025-08-19 19:55:33.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 19:55:33.7|Info|DownloadDecisionMaker|No results found
+2025-08-19 19:55:33.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 20:01:03.7|Info|SceneMappingService|Updating Scene mappings
+2025-08-19 20:02:13.7|Error|ServerSideNotificationService|Failed to retrieve notifications
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.ServerSideNotificationService.Check() in ./Sonarr.Core/HealthCheck/ServerSideNotificationService.cs:line 45
+
+2025-08-19 20:02:13.7|Error|CommandExecutor|Error occurred while executing task ApplicationUpdateCheck
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger, Boolean installMajorUpdate) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 238
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationUpdateCheckCommand message) in ./Sonarr.Core/Update/InstallUpdateService.cs:line 281
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 116
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-19 20:02:43.7|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames() in ./Sonarr.Core/DataAugmentation/Xem/XemProxy.cs:line 81
+   at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Xem/XemService.cs:line 230
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 20:03:54.1|Warn|SystemTimeCheck|Unable to verify system time
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 32
+
+2025-08-19 20:04:23.8|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingProxy.cs:line 29
+   at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings() in ./Sonarr.Core/DataAugmentation/Scene/ServicesProvider.cs:line 16
+   at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings() in ./Sonarr.Core/DataAugmentation/Scene/SceneMappingService.cs:line 143
+
+2025-08-19 20:05:34.1|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.0.15.2941] System.Net.WebException: Http request timed out
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 144
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 333
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 341
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Sonarr.Core/Update/UpdatePackageProvider.cs:line 54
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Sonarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/UpdateCheck.cs:line 91
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<ProcessHealthChecks>b__15_0(IProvideHealthCheck c) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 97
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.ProcessHealthChecks() in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 85
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Sonarr.Core/HealthCheck/HealthCheckService.cs:line 149
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 116
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Sonarr.Core/Messaging/Commands/CommandExecutor.cs:line 42
+
+2025-08-19 20:10:33.8|Info|RssSyncService|Starting RSS Sync
+2025-08-19 20:10:33.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 20:10:33.8|Info|DownloadDecisionMaker|No results found
+2025-08-19 20:10:33.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 20:25:34.1|Info|RssSyncService|Starting RSS Sync
+2025-08-19 20:25:34.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 20:25:34.2|Info|DownloadDecisionMaker|No results found
+2025-08-19 20:25:34.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-08-19 20:41:04.2|Info|RssSyncService|Starting RSS Sync
+2025-08-19 20:41:04.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-08-19 20:41:04.2|Info|DownloadDecisionMaker|No results found
+2025-08-19 20:41:04.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
