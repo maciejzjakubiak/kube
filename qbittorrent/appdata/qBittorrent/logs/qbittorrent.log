@@ -307,3 +307,51 @@
 (N) 2025-08-21T20:31:24 - WebUI: Now listening on IP: *, port: 8080
 (W) 2025-08-21T20:31:24 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
 (W) 2025-08-21T20:31:24 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(N) 2025-08-21T21:18:27 - qBittorrent v5.1.2 started. Process ID: 145
+(N) 2025-08-21T21:18:27 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T21:18:27 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-21T21:18:27 - Peer ID: "-qB5120-"
+(I) 2025-08-21T21:18:27 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T21:18:27 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T21:18:27 - Local Peer Discovery support: ON
+(I) 2025-08-21T21:18:27 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T21:18:27 - Anonymous mode: OFF
+(I) 2025-08-21T21:18:27 - Encryption support: ON
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "172.17.0.6". Port: "TCP/6881"
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "172.17.0.6". Port: "UTP/6881"
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-21T21:18:27 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-21T21:18:27 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-21T21:18:27 - Using built-in WebUI.
+(N) 2025-08-21T21:18:27 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T21:18:27 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-21T21:18:27 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-21T21:18:27 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed
+(N) 2025-08-21T21:18:34 - qBittorrent termination initiated
+(N) 2025-08-21T21:18:34 - Saving resume data completed.
+(N) 2025-08-21T21:18:34 - BitTorrent session successfully finished.
+(N) 2025-08-21T21:18:35 - qBittorrent is now ready to exit
+(N) 2025-08-21T21:21:52 - qBittorrent v5.1.2 started. Process ID: 150
+(N) 2025-08-21T21:21:52 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T21:21:52 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-08-21T21:21:52 - Peer ID: "-qB5120-"
+(I) 2025-08-21T21:21:52 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T21:21:52 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T21:21:52 - Local Peer Discovery support: ON
+(I) 2025-08-21T21:21:52 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T21:21:52 - Anonymous mode: OFF
+(I) 2025-08-21T21:21:52 - Encryption support: ON
+(I) 2025-08-21T21:21:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-08-21T21:21:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-08-21T21:21:52 - Successfully listening on IP. IP: "172.17.0.7". Port: "TCP/6881"
+(I) 2025-08-21T21:21:52 - Successfully listening on IP. IP: "172.17.0.7". Port: "UTP/6881"
+(I) 2025-08-21T21:21:53 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-08-21T21:21:53 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-08-21T21:21:53 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-08-21T21:21:53 - Using built-in WebUI.
+(N) 2025-08-21T21:21:53 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T21:21:53 - WebUI: Now listening on IP: *, port: 8080
+(W) 2025-08-21T21:21:53 - SSL error, URL: "https://download.db-ip.com/free/dbip-country-lite-2025-08.mmdb.gz", errors: "The issuer certificate of a locally looked up certificate could not be found"
+(W) 2025-08-21T21:21:53 - Couldn't download IP geolocation database file. Reason: SSL/TLS handshake failed

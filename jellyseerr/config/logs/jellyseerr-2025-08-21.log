@@ -987,3 +987,31 @@
 2025-08-21T21:02:00.013Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
 2025-08-21T21:03:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2025-08-21T21:03:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-08-21T21:22:03.265Z [info]: Commit Tag: $GIT_SHA 
+2025-08-21T21:22:05.815Z [info]: Starting Jellyseerr version 2.7.3 
+2025-08-21T21:22:13.199Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2025-08-21T21:22:13.210Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2025-08-21T21:22:13.219Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2025-08-21T21:22:13.232Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2025-08-21T21:22:13.236Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2025-08-21T21:22:13.241Z [debug][Settings Migrator]: Checking migration '0006_remove_lunasea.js'... 
+2025-08-21T21:22:13.292Z [info][Notifications]: Registered notification agents 
+2025-08-21T21:22:13.655Z [info][Jobs]: Scheduled jobs loaded 
+2025-08-21T21:22:14.489Z [info][Server]: Server ready on port 5055 
+2025-08-21T21:23:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-21T21:23:00.045Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-21T21:23:00.048Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-08-21T21:24:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-21T21:24:00.011Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-21T21:24:00.015Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-08-21T21:25:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-21T21:25:00.014Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-21T21:25:00.018Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-08-21T21:25:00.026Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-21T21:25:00.030Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7825b3de-e2a8-4c1e-a70b-6691cccd5dec"}
+2025-08-21T21:25:00.050Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-21T21:25:00.053Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: connect ECONNREFUSED 172.17.0.4:8096 {}
+2025-08-21T21:25:00.053Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-21T21:26:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-21T21:26:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radar 
+2025-08-21T21:26:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 

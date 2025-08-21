@@ -87,3 +87,15 @@ services:
       - ./homepage/config:/app/config # Make sure your local config directory exists
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
+
+  homeassistant:
+    image: homeassistant/home-assistant:stable
+    container_name: homeassistant
+    network_mode: "bridge"
+    volumes:
+      - ./homeassistant/config:/config
+    ports:
+      - 8123:8123
+    restart: unless-stopped
+    # devices:
+    #   - /dev/ttyUSB0:/dev/ttyUSB0 # Uncomment and modify if using a USB device
