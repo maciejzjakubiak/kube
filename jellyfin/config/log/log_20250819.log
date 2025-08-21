@@ -455,3 +455,37 @@ System.Net.Http.HttpRequestException: The SSL connection could not be establishe
 [2025-08-19 20:50:00.038 +00:00] [INF] [108] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
 [2025-08-19 20:50:00.038 +00:00] [INF] [108] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
 [2025-08-19 20:50:27.176 +00:00] [INF] [108] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 20:55:00.113 +00:00] [INF] [99] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 20:55:00.114 +00:00] [INF] [99] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 20:55:00.114 +00:00] [INF] [99] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 20:55:03.177 +00:00] [INF] [98] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 20:58:51.177 +00:00] [INF] [89] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:00:00.033 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:00:00.034 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:00:00.034 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:02:39.177 +00:00] [INF] [23] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:05:00.076 +00:00] [INF] [26] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:05:00.077 +00:00] [INF] [26] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:05:00.077 +00:00] [INF] [26] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:06:27.174 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:10:00.043 +00:00] [INF] [34] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:10:00.043 +00:00] [INF] [34] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:10:00.043 +00:00] [INF] [34] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:11:03.177 +00:00] [INF] [24] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:14:51.177 +00:00] [INF] [47] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:15:00.085 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:15:00.086 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:15:00.086 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:18:39.174 +00:00] [INF] [52] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:20:00.033 +00:00] [INF] [67] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:20:00.033 +00:00] [INF] [67] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:20:00.033 +00:00] [INF] [67] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:22:27.179 +00:00] [INF] [69] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:25:00.077 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:25:00.078 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:25:00.080 +00:00] [INF] [47] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:27:03.173 +00:00] [INF] [43] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2025-08-19 21:30:00.048 +00:00] [INF] [36] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:30:00.049 +00:00] [INF] [36] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-19 21:30:00.050 +00:00] [INF] [36] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-19 21:30:51.174 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.

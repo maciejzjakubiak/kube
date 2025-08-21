@@ -1,0 +1,39 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Media:
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://localhost:8096/
+        description: Jellyfin
+    - Jellyseerr:
+        icon: jellyseerr.png
+        href: http://localhost:5055/
+        description: Jellyseerr
+    - Radarr:
+        icon: radarr.png
+        href: http://localhost:7878/
+        description: Radarr
+    - Sonarr:
+        icon: sonarr.png
+        href: http://localhost:8989/
+        description: Sonarr
+    - Prolarr:
+        icon: prowlarr.png
+        href: http://localhost:9696/
+        description: Prowlarr
+    - qbittorrent:
+        icon: qbittorrent.png
+        href: http://localhost:8080/
+        description: qbittorrent                       
+
+- My Second Group:
+    - My Second Service:
+        href: http://localhost/
+        description: Homepage is the best
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎

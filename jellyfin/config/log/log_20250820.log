@@ -1,0 +1,535 @@
+[2025-08-20 12:08:01.017 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2025-08-20 12:08:01.399 +00:00] [WRN] [27] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "172.17.0.1" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2025-08-20 12:08:02.318 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:02.318 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:02.320 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:02.414 +00:00] [WRN] [27] Emby.Server.Implementations.Session.SessionWebSocketListener: WebSocket "Emby.Server.Implementations.HttpServer.WebSocketConnection" not on watchlist.
+[2025-08-20 12:08:02.430 +00:00] [INF] [27] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" closed
+[2025-08-20 12:08:02.722 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:02.722 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:02.724 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:03.346 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.347 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.347 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:03.531 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.533 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.533 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:03.680 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.681 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:03.681 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:04.361 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.362 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.396 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:04.713 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.713 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.734 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:04.782 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.785 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.785 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:04.881 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.882 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:04.882 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.088 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.089 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.089 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.155 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.155 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.155 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.159 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.160 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.160 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.274 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.276 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.277 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.351 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.351 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.351 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.431 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.432 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.432 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.496 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.497 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.497 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.548 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.548 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.549 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.626 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.627 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.627 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.713 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.714 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.714 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.798 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.799 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.800 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.852 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.852 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.853 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.927 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.927 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.928 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:05.973 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.974 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:05.975 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.035 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.036 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.036 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.088 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.089 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.090 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.183 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.184 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.185 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.238 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.238 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.238 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.308 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.308 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.310 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.456 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.456 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.456 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.553 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.553 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.555 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.657 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.657 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.658 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.724 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.724 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.725 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.808 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.808 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.809 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.864 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.865 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.865 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.925 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.925 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.926 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:06.985 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.985 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:06.986 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.048 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.049 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.049 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.106 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.107 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.108 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.154 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.155 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.156 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.227 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.228 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.228 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.280 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.281 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.281 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.351 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.352 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.353 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.454 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.454 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.455 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.510 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.511 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.511 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.564 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.565 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.566 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.631 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.632 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.633 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.913 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.914 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.914 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:07.984 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.984 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:07.985 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:08.323 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:08.345 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:08.346 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.146 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.192 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.193 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.411 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.415 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.416 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.549 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.556 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.557 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.559 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.566 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.567 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.681 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.683 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.683 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.880 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.882 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.883 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:09.923 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.925 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:09.926 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.010 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.010 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.011 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.223 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.224 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.228 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.280 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.280 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.283 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.820 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.821 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.821 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.888 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.888 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.889 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.900 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.901 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.901 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.939 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.940 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.940 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.960 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.961 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.961 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:10.962 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.962 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:10.963 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.028 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.028 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.029 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.030 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.051 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.052 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.103 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.104 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.105 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.154 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.155 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.155 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.238 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.238 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.239 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.295 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.295 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.296 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.337 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.337 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.337 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.408 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.409 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.410 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.460 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.461 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.462 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:11.959 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.974 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:11.975 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:12.899 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:12.900 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:12.900 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.026 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.026 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.027 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.034 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.034 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.037 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.039 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.039 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.040 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.048 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.049 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.050 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.056 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.057 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.058 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.287 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.287 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.288 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:13.288 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.289 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:13.289 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.421 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.426 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.427 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.463 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.466 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.469 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.470 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.470 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.471 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.577 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.578 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.579 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.597 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.598 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.600 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:14.671 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.675 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:14.675 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.095 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.096 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.098 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.110 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.112 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.113 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.130 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.146 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.147 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.147 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.147 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.153 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.158 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.159 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.159 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.159 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.159 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.159 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.160 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.161 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.178 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.371 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.372 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.382 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:16.500 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.502 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:16.503 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.054 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.058 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.059 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.169 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.170 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.171 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.171 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.172 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.173 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.197 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.197 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.197 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.246 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.247 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.249 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.312 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.313 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.314 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.514 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.514 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.517 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.532 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.533 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.533 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:17.896 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.897 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:17.898 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.252 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.253 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.254 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.275 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.276 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.277 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.289 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.290 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.290 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.292 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.292 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.293 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.316 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.317 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.317 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.338 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.339 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.339 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.537 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.538 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.538 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:18.568 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.568 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:18.569 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:19.706 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.707 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.718 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:19.879 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.879 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.881 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:19.885 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.890 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.891 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:19.917 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.917 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.917 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:19.981 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.981 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:19.982 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.014 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.016 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.018 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.021 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.022 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.029 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.030 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.030 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.033 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.548 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.549 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.549 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.710 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.710 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.711 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.720 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.720 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.721 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.898 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.899 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.900 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.929 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.930 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.930 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.991 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.991 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.992 +00:00] [INF] [25] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:20.995 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.996 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:20.997 +00:00] [INF] [16] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.001 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.002 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.002 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.011 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.011 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.012 +00:00] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.049 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.049 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.050 +00:00] [INF] [23] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.052 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.052 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.053 +00:00] [INF] [17] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.082 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.083 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.082 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.083 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.083 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.083 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.083 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.084 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.084 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.130 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.130 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.130 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.257 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.257 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.257 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.382 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.382 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.382 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.538 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.538 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.538 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.612 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.612 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.612 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:21.764 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.765 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:21.765 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.047 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.047 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.048 +00:00] [INF] [28] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.379 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.379 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.380 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.481 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.481 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.481 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.493 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.494 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.497 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.581 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.581 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.584 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.782 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.783 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.783 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.852 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.853 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.853 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.914 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.914 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.914 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:22.961 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.961 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:22.961 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.158 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.158 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.159 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.258 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.259 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.259 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.336 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.336 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.337 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.345 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.345 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.345 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.396 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.397 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.398 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.681 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.684 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.684 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.807 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.807 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.808 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.868 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.869 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.869 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.884 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.885 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.885 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:23.945 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.945 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:23.946 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.017 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.025 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.025 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.236 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.238 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.238 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.346 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.347 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.347 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.391 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.392 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.392 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.393 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.394 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.395 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.522 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.522 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.523 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.681 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.681 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.682 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.716 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.717 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.717 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.789 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.791 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.792 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.831 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.832 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.832 +00:00] [INF] [15] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.925 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.926 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.926 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:24.998 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.999 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:24.999 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:25.090 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.093 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.093 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:25.146 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.146 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.146 +00:00] [INF] [31] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.
+[2025-08-20 12:08:25.163 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.163 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2025-08-20 12:08:25.163 +00:00] [INF] [27] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: "CustomAuthentication" was challenged.

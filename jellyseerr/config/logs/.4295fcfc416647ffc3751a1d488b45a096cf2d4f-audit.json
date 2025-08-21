@@ -24,6 +24,16 @@
             "date": 1755611988063,
             "name": "/app/config/logs/jellyseerr-2025-08-19.log",
             "hash": "744ac9a080a9a0b1b8404b598ec1788325b85ec767abba27b3b84b12e2d07f35"
+        },
+        {
+            "date": 1755691680716,
+            "name": "/app/config/logs/jellyseerr-2025-08-20.log",
+            "hash": "ccd26df79316cffd0ef6f88cc22b7cb133a1665f75a26dadfbbcea4a7eb707de"
+        },
+        {
+            "date": 1755787036306,
+            "name": "/app/config/logs/jellyseerr-2025-08-21.log",
+            "hash": "4a517db924fd5d8967c3fc9512ee287f46986d6195608c056738396b7102131c"
         }
     ],
     "hashType": "sha256"

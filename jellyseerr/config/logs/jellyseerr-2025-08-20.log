@@ -1,0 +1,1774 @@
+2025-08-20T01:21:37.288Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:01.922Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:01.948Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:01.949Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1d4b549b-df84-474d-ab38-c87a91b64b3e"}
+2025-08-20T12:08:02.047Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.080Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.107Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.166Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.199Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.221Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:02.239Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:02.240Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ecd837c3-0589-4719-8a28-22a5935d50d9"}
+2025-08-20T12:08:02.260Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.315Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.353Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.365Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:02.366Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:02.404Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.667Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:02.709Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:02.956Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:02.962Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"affdb744-f9d6-42d9-a636-51787d943ffa"}
+2025-08-20T12:08:03.091Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:03.092Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:03.144Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.174Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.201Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.307Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.333Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.341Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:03.351Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:03.351Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"bf78e3ad-40f4-4642-8b50-1e0c3f635ab6"}
+2025-08-20T12:08:03.357Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:03.358Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:03.361Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.368Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.393Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.403Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.471Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.522Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:03.522Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"03b47b3b-ee20-4ac5-81db-0f988c274f57"}
+2025-08-20T12:08:03.525Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:03.546Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.555Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:03.556Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:03.559Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.608Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.636Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.660Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.667Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:03.667Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f71ff13e-ade0-4ca2-867f-2040d354c4e6"}
+2025-08-20T12:08:03.673Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:03.679Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.685Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:03.686Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:03.687Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.853Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.873Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.931Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.948Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:03.949Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"85635645-f5cc-4992-8cbf-f3d42bcc7dad"}
+2025-08-20T12:08:03.952Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.977Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:03.983Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.050Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.081Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:04.082Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"91bb42b9-913e-401f-822a-68251fded512"}
+2025-08-20T12:08:04.087Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.163Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.183Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:04.199Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.433Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:04.434Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:04.437Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.606Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.644Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:04.651Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:04.661Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2d97b015-693a-43ba-a01a-8f6ac003174b"}
+2025-08-20T12:08:04.680Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.741Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:04.745Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.770Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:04.771Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:04.774Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.795Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.816Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:04.817Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:04.819Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.841Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:04.842Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"509d6f6e-781d-4592-8f62-bed7961ba129"}
+2025-08-20T12:08:04.856Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.867Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:04.895Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.917Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:04.918Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:04.920Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.937Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.960Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:04.981Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:04.981Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"b614bbea-2d0a-4f6b-8a24-18747209e16e"}
+2025-08-20T12:08:05.000Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.036Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.037Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"318d1a24-1887-4f1b-9983-eedcd5327575"}
+2025-08-20T12:08:05.046Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.057Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.065Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.080Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.097Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.105Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.105Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.107Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.119Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.120Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5f64951d-ae55-4448-a86c-d98eb7b52fff"}
+2025-08-20T12:08:05.125Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.133Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.144Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.151Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.161Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.205Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.207Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.209Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.210Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.214Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.243Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.256Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.257Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7d1c4cbf-4a9f-4c46-bad0-9f7c09855416"}
+2025-08-20T12:08:05.265Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.273Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.289Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.290Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.293Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.308Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.315Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.329Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.340Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.341Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"dd306c84-cedc-47c1-b732-a4d28830b526"}
+2025-08-20T12:08:05.345Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.348Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.365Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.366Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.369Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.387Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.406Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.415Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.422Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.425Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.426Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7869231e-2c36-4e25-997b-6d0352a41788"}
+2025-08-20T12:08:05.428Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.439Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.440Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.443Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.457Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.467Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.477Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.488Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.489Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"76ac989e-65d7-4966-8929-c051ce2703f3"}
+2025-08-20T12:08:05.492Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.498Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.508Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.508Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.511Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.518Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.524Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.534Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.542Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.543Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"6b3e2dda-6700-4870-b6ae-6637624dd091"}
+2025-08-20T12:08:05.545Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.547Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.552Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.553Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.555Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.567Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.579Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.590Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.613Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.613Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f66ab3c4-335e-477b-b483-9a440eae5ae5"}
+2025-08-20T12:08:05.620Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.623Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.636Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.637Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.641Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.659Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.686Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.697Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.707Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.721Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.721Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"452cf306-f332-4383-b9d7-4065729d937a"}
+2025-08-20T12:08:05.724Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.725Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.727Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.739Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.753Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.759Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.771Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.782Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.782Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"195233a2-97ac-4d50-827a-b48a6af4899e"}
+2025-08-20T12:08:05.791Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.797Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.803Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.803Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.808Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.825Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.835Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.841Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.846Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.852Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.852Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"57cc85c1-16d6-489b-a6d9-8af5e593e449"}
+2025-08-20T12:08:05.859Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.860Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.863Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.872Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.885Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.891Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.904Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.914Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.915Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"4d54eed5-a358-4964-b54e-3fafbed3abfd"}
+2025-08-20T12:08:05.921Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.924Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.931Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.932Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.934Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.941Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.949Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.958Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.966Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:05.971Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:05.971Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"06bddf21-557a-4493-a774-28549f8c302d"}
+2025-08-20T12:08:05.980Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:05.986Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:05.986Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:05.988Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.029Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.032Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.033Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"265be485-b2d6-42e5-92fb-4d9f0b6b541a"}
+2025-08-20T12:08:06.040Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.041Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.042Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.048Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.054Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.064Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.070Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.080Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.098Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.098Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f86ec101-d1da-495c-b569-df2af9817717"}
+2025-08-20T12:08:06.102Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.102Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.104Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.113Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.121Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.161Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.168Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.175Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.176Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"651ced1c-288b-4118-badb-717c21d776ae"}
+2025-08-20T12:08:06.178Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.180Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.193Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.193Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.195Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.210Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.215Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.224Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.230Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.230Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"170901d6-fa70-4d9a-b76a-d75dd2ecf2fc"}
+2025-08-20T12:08:06.233Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.239Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.245Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.245Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.247Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.255Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.263Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.270Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.290Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.291Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"03bf169a-fa37-44f1-9401-e7ac33cce53e"}
+2025-08-20T12:08:06.298Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.354Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.374Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.374Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.375Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.388Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.397Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.442Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.449Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.452Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.453Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"013d732e-432c-48b6-b4b8-fef7765ee593"}
+2025-08-20T12:08:06.465Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.473Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.473Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.484Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.503Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.517Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.534Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.544Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.556Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.557Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"df3af5b5-e455-48d3-80cb-0d00f5f9d193"}
+2025-08-20T12:08:06.564Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.565Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.569Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.588Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.615Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.623Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.635Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.647Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.649Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3bb42549-1644-41dd-b494-98ae5a76eb04"}
+2025-08-20T12:08:06.652Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.655Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.663Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.664Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.670Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.679Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.689Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.699Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.712Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.713Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"521c299b-e8ee-4b3c-b3fc-76e5690de17a"}
+2025-08-20T12:08:06.716Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.724Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.732Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.733Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.740Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.749Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.765Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.783Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.795Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.797Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7f086ba9-f0ca-4772-884a-aa49e4fb71b4"}
+2025-08-20T12:08:06.802Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.807Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.826Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.827Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.829Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.838Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.844Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.856Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.860Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.865Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.866Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2433d831-c279-4f53-b572-016df14c6473"}
+2025-08-20T12:08:06.871Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.872Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.873Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.881Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.889Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.898Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.906Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.914Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.922Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.923Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ef1d497d-8020-44e3-b0fd-134d3bcb0987"}
+2025-08-20T12:08:06.926Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.933Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.934Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:06.939Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.948Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.958Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.964Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.974Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:06.976Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e135dd80-d49d-4a1e-b3bc-833c5c5f053e"}
+2025-08-20T12:08:06.979Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:06.982Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:06.997Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:06.997Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.001Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.038Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.040Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e252220d-6fdf-467c-85d5-3ffceeef5b90"}
+2025-08-20T12:08:07.042Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.047Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.057Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.058Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.060Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.068Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.076Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.085Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.095Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.096Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a2652269-09c1-4463-81e5-9d226fd52bcc"}
+2025-08-20T12:08:07.100Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.108Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.115Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.115Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.117Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.126Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.135Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.144Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.149Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.153Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.153Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e41e3d78-4410-4e0a-b051-c8b9f2a6f202"}
+2025-08-20T12:08:07.160Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.161Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.164Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.177Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.188Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.194Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.205Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.212Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.213Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"d3b4751c-3598-4a01-a19c-4bd174cb4291"}
+2025-08-20T12:08:07.221Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.224Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.238Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.244Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.246Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.252Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.259Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.265Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.273Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.276Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.277Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e7c8a6d3-5262-448a-a91e-978147ec82c4"}
+2025-08-20T12:08:07.284Z [info][Jobs]: Starting scheduled job: Download Sync Reset 
+2025-08-20T12:08:07.293Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.294Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.295Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.306Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.314Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.326Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.334Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.344Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.353Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.354Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"572858cd-c12c-4a88-a53d-cb51ceecce75"}
+2025-08-20T12:08:07.362Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.363Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.366Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.379Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.396Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.403Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.418Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.442Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.445Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"32de8257-fe77-43f4-9c0f-13283cb2b9c2"}
+2025-08-20T12:08:07.448Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.452Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.459Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.461Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.463Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.471Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.479Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.489Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.499Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.501Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7213d89b-8b22-4bb2-a514-1488a3effd41"}
+2025-08-20T12:08:07.503Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.507Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.518Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.519Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.521Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.529Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.538Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.547Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.556Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.556Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f0a63535-5ba0-4632-b50f-8f9d3b6c5a18"}
+2025-08-20T12:08:07.559Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.563Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.573Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.574Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.576Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.589Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.596Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.607Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.615Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.616Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"caed4a2b-8d84-4a75-9e4d-07b38aae9ba2"}
+2025-08-20T12:08:07.623Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.631Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.701Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.702Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.752Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.770Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.785Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.801Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.908Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.916Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.917Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f4c6559a-cafb-4803-a26e-e2037cc0b77a"}
+2025-08-20T12:08:07.927Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.927Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.929Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.938Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.945Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.952Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.969Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:07.976Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:07.984Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:07.985Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"73da105b-445d-4322-badb-85ee00c5a272"}
+2025-08-20T12:08:07.989Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:07.990Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:07.998Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.178Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.199Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:08.200Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"8a78a38b-4c6a-48d9-b0a4-dd2c91a5c816"}
+2025-08-20T12:08:08.204Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.250Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.295Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:08.311Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.355Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.387Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:08.388Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:08.391Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.410Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:08.421Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"26ba7462-7c57-4ab0-812c-b7170a36037e"}
+2025-08-20T12:08:08.466Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.716Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:08.816Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.822Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.843Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.852Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.864Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:08.865Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c942db2d-7c51-495b-aa78-53d4210b03dd"}
+2025-08-20T12:08:08.876Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.890Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:08.953Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.266Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.284Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.353Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.360Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.361Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.405Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.406Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"330b9c0a-c049-4d2c-962f-7e19d09afb4e"}
+2025-08-20T12:08:09.409Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.426Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.452Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.452Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.456Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.484Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.493Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.507Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.521Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.522Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c2d1532a-d1bc-459f-b3a5-13aa6042a1d1"}
+2025-08-20T12:08:09.530Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.540Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.562Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.570Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.571Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.583Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.600Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.600Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.603Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.609Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.623Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.624Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"66b89f0c-4872-4a55-a983-87be8115c59e"}
+2025-08-20T12:08:09.627Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.641Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.645Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.659Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.664Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.679Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.689Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.689Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"8f729571-8900-4f4d-a102-24f4108fc255"}
+2025-08-20T12:08:09.702Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.703Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.705Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.711Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.779Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.796Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.801Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.810Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.811Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c0d84a5a-de69-4559-ad6d-0f909a5f22b9"}
+2025-08-20T12:08:09.836Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.840Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.869Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.878Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.899Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.919Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.932Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.934Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.940Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:09.941Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:09.944Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.963Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:09.964Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e8062d86-d805-4543-b5da-b2e46d33cf07"}
+2025-08-20T12:08:09.977Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:09.985Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:09.997Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.028Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.028Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.031Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.050Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.062Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.065Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9436ae5a-1545-4dc2-b3c3-3145ee135715"}
+2025-08-20T12:08:10.069Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.172Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.182Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.199Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.214Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.234Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.242Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.243Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.245Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.246Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0f1d1c1d-7fcb-43ef-9de4-e0b4c2c1df1e"}
+2025-08-20T12:08:10.261Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.284Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.411Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.412Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.417Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.431Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.438Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.460Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.465Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.475Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"22b628bf-f41a-4d03-a5df-3666a5714f31"}
+2025-08-20T12:08:10.478Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.487Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.503Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.520Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.526Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.531Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.545Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2a5d37b6-0e4b-4856-9bc5-9816e168f477"}
+2025-08-20T12:08:10.554Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.568Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.583Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.598Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.605Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.620Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.621Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5ccad47b-ae63-4162-9b65-3f5f9be23e37"}
+2025-08-20T12:08:10.624Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.634Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.662Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.674Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.678Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.698Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.699Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"b108215e-2851-41d4-8eed-506840f39667"}
+2025-08-20T12:08:10.705Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.721Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.727Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.740Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.745Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.756Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.757Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"14b769d1-6c71-4d23-8af8-62298ac78c58"}
+2025-08-20T12:08:10.762Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.806Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.810Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.825Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.835Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.837Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.839Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.860Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.877Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.882Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:10.882Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ca9c1171-2adb-48e9-a36e-afc3f295373b"}
+2025-08-20T12:08:10.891Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.896Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.903Z [info][Jobs]: Starting scheduled job: Jellyfin Full Scan 
+2025-08-20T12:08:10.904Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"187c1703-30eb-4ad4-81e2-befb1dc95b91"}
+2025-08-20T12:08:10.913Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.917Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:10.931Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.931Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.933Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.934Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.941Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.955Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.956Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.967Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:10.976Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.977Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.980Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:10.981Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:10.986Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.001Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.021Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.025Z [info][Jellyfin Sync]: Beginning to process library: Movies 
+2025-08-20T12:08:11.031Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.036Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"db15e4a8-51de-4b6f-8e95-9852d996c3ce"}
+2025-08-20T12:08:11.043Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.043Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.045Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.059Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.066Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.066Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.069Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.083Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.090Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.098Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.101Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.101Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1f2fdff3-798f-4d26-9c1e-7708fe07c094"}
+2025-08-20T12:08:11.107Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.118Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.118Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.120Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.126Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.137Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.145Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.150Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.158Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.158Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c3000a3c-71f4-4c30-a734-8fffcd6c0545"}
+2025-08-20T12:08:11.162Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.163Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.166Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.176Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.190Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.196Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.210Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.230Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.230Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"30765de1-aeb4-453e-ae3c-bbc746eb16a6"}
+2025-08-20T12:08:11.233Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.235Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.242Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.243Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.246Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.252Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.256Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.269Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.275Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.275Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"288f43ec-1711-4ab9-9bda-8004c20fe209"}
+2025-08-20T12:08:11.286Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.290Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.297Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.307Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.308Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.309Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.316Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.327Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.332Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.343Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.344Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"6e8505be-8fd2-4967-8809-2348e7f41ac3"}
+2025-08-20T12:08:11.350Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.350Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.352Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.364Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.373Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.388Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.395Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.404Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.406Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.407Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c716254e-9427-4249-b4b9-f9f3ec9329ac"}
+2025-08-20T12:08:11.410Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.419Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.420Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.422Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.426Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.433Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.443Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.451Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.460Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.461Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"bef75602-b139-4fd2-beec-7c563ac92d1d"}
+2025-08-20T12:08:11.464Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.478Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:11.478Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:11.480Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.494Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.499Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.643Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:11.898Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:11.898Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c85f4f57-97c9-4566-b54f-ba24c74fc78d"}
+2025-08-20T12:08:11.902Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:11.915Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.056Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:12.056Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:12.058Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.067Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.106Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.122Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.124Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0f98c303-ae2e-4021-9303-0a72f0f96308"}
+2025-08-20T12:08:12.131Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.141Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.151Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.164Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.179Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.190Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.190Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"032810c6-cbdc-4e35-9fee-4c73ac1386db"}
+2025-08-20T12:08:12.197Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.208Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.223Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.245Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.255Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.272Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.272Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"98ffab4c-307f-479f-8fcb-c861fa1a21f1"}
+2025-08-20T12:08:12.297Z [info][Jobs]: Starting scheduled job: Radarr Scan 
+2025-08-20T12:08:12.313Z [info][Radarr Scan]: Scan starting {"sessionId":"df75ed11-276a-4771-8bf8-cdf67f1848c5"}
+2025-08-20T12:08:12.316Z [info][Radarr Scan]: Beginning to process Radarr server: Radar 
+2025-08-20T12:08:12.329Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.342Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.354Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.360Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.380Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.407Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.408Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1b989618-1d24-45b8-9dc3-bceb50ec4c23"}
+2025-08-20T12:08:12.411Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.427Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.443Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.479Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.497Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.513Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.514Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0e92b34f-22cf-4879-9df6-a037e71ef3e3"}
+2025-08-20T12:08:12.518Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.553Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.562Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.578Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.585Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.647Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.649Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2265c6e6-ce4f-44bb-b667-beb698cd95ae"}
+2025-08-20T12:08:12.665Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.685Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.693Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:12.708Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.727Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.759Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.775Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.775Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1adda14a-2f55-4abe-a9d1-06f24a804200"}
+2025-08-20T12:08:12.787Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.807Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.825Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.832Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.848Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.865Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.865Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"26908867-2011-4122-8829-0a602c3c2482"}
+2025-08-20T12:08:12.868Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.875Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.889Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.895Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.911Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:12.912Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:12.929Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:12.952Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:12.952Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f9720b23-c861-43e1-964c-35d8389c31e7"}
+2025-08-20T12:08:12.976Z [info][Jobs]: Starting scheduled job: Sonarr Scan 
+2025-08-20T12:08:12.977Z [info][Sonarr Scan]: Scan starting {"sessionId":"69d957a8-3614-4a1d-80d9-44211b146c81"}
+2025-08-20T12:08:12.978Z [info][Sonarr Scan]: Beginning to process Sonarr server: Sonarr 
+2025-08-20T12:08:12.999Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.015Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.018Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.025Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.034Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.040Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.044Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.058Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.062Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.066Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.083Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.083Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.085Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.086Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.092Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.094Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.097Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.105Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.110Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.118Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.118Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.123Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.138Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:13.143Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.158Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.159Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a93f95d9-185b-4c76-ad8a-0ceba41cbbeb"}
+2025-08-20T12:08:13.162Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.177Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.196Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.210Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.214Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.235Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.236Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"19ae8624-0827-4fa7-9a24-1596b4399c5d"}
+2025-08-20T12:08:13.239Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.251Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.260Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.265Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.273Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.280Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.280Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9edb4bb1-1de7-403c-9c1e-53966a0c50a1"}
+2025-08-20T12:08:13.282Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.290Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.298Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.299Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.300Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:13.301Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:13.309Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.316Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.337Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.347Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.348Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3afcea4b-93fa-44ca-b5ac-a3de4b25f2a9"}
+2025-08-20T12:08:13.360Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.371Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.383Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.397Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.414Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.432Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.433Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2fd03c21-f2d7-4316-817c-103267e3e526"}
+2025-08-20T12:08:13.437Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.452Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.464Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.897Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.919Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.923Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:13.924Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3f8d7e54-a7d7-49e2-9103-56cd4d8698fe"}
+2025-08-20T12:08:13.931Z [info][Jobs]: Starting scheduled job: Image Cache Cleanup 
+2025-08-20T12:08:13.957Z [info][Jobs]: Starting scheduled job: Media Availability Sync 
+2025-08-20T12:08:13.962Z [info][Availability Sync]: Starting availability sync... 
+2025-08-20T12:08:13.966Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:13.986Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.032Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:14.035Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1d3f9dc8-fe2e-4ceb-ad71-045d1ba5b39b"}
+2025-08-20T12:08:14.039Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.052Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.100Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.130Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.137Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.151Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:14.153Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"d90e7cd5-22dc-494a-b39c-e2a5c013abe9"}
+2025-08-20T12:08:14.179Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.197Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.225Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.240Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.273Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.293Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:14.293Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9dc7c934-1192-455e-8a24-68398f6ed463"}
+2025-08-20T12:08:14.296Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.321Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.333Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.340Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.368Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.397Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:14.415Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:14.426Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"6279621f-7c35-4253-8782-fc4922692fbd"}
+2025-08-20T12:08:14.434Z [error][Image Cache]: ENOENT: no such file or directory, scandir '/app/config/cache/images/tmdb' 
+2025-08-20T12:08:14.435Z [info][Image Cache]: Cleared 0 stale image(s) from cache 'tmdb' 
+2025-08-20T12:08:14.437Z [error][Image Cache]: ENOENT: no such file or directory, scandir '/app/config/cache/images/avatar' 
+2025-08-20T12:08:14.438Z [info][Image Cache]: Cleared 0 stale image(s) from cache 'avatar' 
+2025-08-20T12:08:14.466Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.509Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:14.510Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:14.529Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:14.531Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:14.541Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.560Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:14.592Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:14.595Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:14.597Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:14.612Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:14.645Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:14.655Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:14.657Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:14.675Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:14.675Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:14.678Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:15.369Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:15.406Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:15.406Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:15.408Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.098Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.125Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.129Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.129Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0444351c-8a5b-4ffe-ab84-fecd8af4ac7c"}
+2025-08-20T12:08:16.133Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.147Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.150Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.165Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.166Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.168Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.169Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.171Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.195Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.196Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.197Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.203Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.214Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.214Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.217Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.217Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.227Z [error][AvailabilitySync]: Sync interrupted. {"status":401,"error":"apiError","errorMessage":"INVALID_AUTH_TOKEN"}
+2025-08-20T12:08:16.229Z [info][Availability Sync]: Availability sync complete. 
+2025-08-20T12:08:16.232Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.251Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.289Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.312Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.329Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.333Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.333Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"fbb7aeff-de24-44b3-8938-1e10646fe46e"}
+2025-08-20T12:08:16.368Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.395Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.396Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.398Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.420Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.451Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.472Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.493Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.509Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.512Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c560a7da-1ea4-4ab0-b662-0a7f3452d674"}
+2025-08-20T12:08:16.516Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:16.516Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:16.527Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.568Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.596Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.750Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.766Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.772Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.773Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"8a52d80e-06d9-43e4-b819-581981cc26ba"}
+2025-08-20T12:08:16.785Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.791Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.797Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.816Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.828Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.838Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.839Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"79047fa4-3798-4709-b97a-ad23bd45e1fe"}
+2025-08-20T12:08:16.842Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.855Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:16.859Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.874Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.880Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.897Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.915Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:16.915Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5fa4895b-2b73-4afa-93d0-727b747d1c6a"}
+2025-08-20T12:08:16.919Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.935Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.947Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.976Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:16.998Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.015Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.016Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f8e20e60-5895-4f8d-b123-3f3f7dd7c170"}
+2025-08-20T12:08:17.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.031Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.045Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.078Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.079Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.087Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.109Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.109Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"106ee7bd-713c-4a0e-94a4-527512b91dfe"}
+2025-08-20T12:08:17.121Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.141Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.145Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.163Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.167Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.185Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.199Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.200Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.202Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.202Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.205Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.235Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.241Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.242Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.248Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.303Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.306Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.307Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.309Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.309Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3aa31b1a-3c8b-4332-aefc-3f30dc4439a3"}
+2025-08-20T12:08:17.326Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.327Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.330Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.345Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.352Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.365Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.382Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.400Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.400Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5c427291-048a-47d4-a4d5-ae16c1057add"}
+2025-08-20T12:08:17.405Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.418Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.438Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.457Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.469Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.491Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.491Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1f26a48b-822c-4e81-8125-d6131a1a1970"}
+2025-08-20T12:08:17.499Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.502Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.522Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.526Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.526Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.528Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.554Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.554Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.557Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.578Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.616Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.624Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:17.641Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.644Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"159e0b74-9e5f-4d32-a7e7-369004c4e666"}
+2025-08-20T12:08:17.659Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.666Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.684Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.695Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.714Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.726Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.727Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1c52388d-4720-44cf-9cb9-bbc1b8503d4a"}
+2025-08-20T12:08:17.730Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.746Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.755Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.762Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.768Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.784Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.785Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"fa8ab1ce-dd8d-4813-84b3-87c21df653b7"}
+2025-08-20T12:08:17.792Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.809Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.821Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.826Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.838Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.843Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.843Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e965db16-b341-4259-bb5c-7561ccff776d"}
+2025-08-20T12:08:17.851Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.868Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.889Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.893Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.911Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.918Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:17.927Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:17.929Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:17.930Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"808eee9f-f866-4f5f-bb5f-9315b3d890c6"}
+2025-08-20T12:08:17.934Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.950Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.963Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.973Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:17.984Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.008Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.009Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"777f4c20-8c05-413c-b738-b9947ded0e8e"}
+2025-08-20T12:08:18.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.044Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.049Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.059Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.065Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.065Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1399d175-e4b0-498f-98e8-c4279393da70"}
+2025-08-20T12:08:18.067Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.076Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.084Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.107Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.168Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.225Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.225Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1fe7c40c-9bf9-4b1a-88f7-7eb263e9f96c"}
+2025-08-20T12:08:18.242Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.255Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.266Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.271Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.279Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.294Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.295Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.297Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.309Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.315Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.316Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.318Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.318Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.320Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.321Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.323Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.330Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.335Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.342Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.343Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.346Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.357Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.357Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.359Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.367Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.369Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9a870be9-8a2a-40a7-9781-ea53414ce770"}
+2025-08-20T12:08:18.374Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.381Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.396Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.403Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.421Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.437Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.438Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"94365efb-41e7-4c38-9cef-460fa2e6c90c"}
+2025-08-20T12:08:18.450Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.468Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.484Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.498Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.519Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.530Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.530Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"4384654c-6ada-43a3-a33c-10a929343006"}
+2025-08-20T12:08:18.533Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.540Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:18.543Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.543Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.544Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.553Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.561Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.567Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.587Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:18.587Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:18.589Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:18.590Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c4a211db-7d74-49c8-a9fa-8efacc328dea"}
+2025-08-20T12:08:18.683Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.915Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:18.974Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.187Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.193Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.203Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:19.204Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5d28253c-8e4c-4f3b-bf8f-41104400e9a4"}
+2025-08-20T12:08:19.207Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.211Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.223Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.228Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.232Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.238Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:19.239Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ae773477-04dc-4191-868a-083d50ecef5d"}
+2025-08-20T12:08:19.246Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.251Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.261Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.267Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.273Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.279Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:19.280Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ed94943f-33b4-4f2d-a1f4-ebb8adf671a7"}
+2025-08-20T12:08:19.284Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.319Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.336Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.342Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.552Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.645Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.866Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.871Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:19.873Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"443dc7bc-dde6-4a4e-9f68-70d4df0a12f8"}
+2025-08-20T12:08:19.876Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.892Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:19.894Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:19.898Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.908Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.927Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:19.927Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:19.929Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:19.932Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:19.939Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.948Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:19.949Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:19.955Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.967Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.974Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.976Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.985Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:19.991Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:19.999Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.008Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.009Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.011Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.011Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"645ef740-2dd2-4e4c-a2be-38b5ef887670"}
+2025-08-20T12:08:20.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.032Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.043Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.046Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.046Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.048Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.065Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.066Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.068Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.103Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.118Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.133Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.134Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a7302c44-a3ba-4d00-84c0-55332678fb07"}
+2025-08-20T12:08:20.137Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.150Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.160Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.173Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.188Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.194Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.195Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7fbf89e6-adfc-47e0-b582-bd6046d8cfa3"}
+2025-08-20T12:08:20.205Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.215Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.227Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.233Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.247Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.265Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.265Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7837cad6-0332-439b-945b-a7e027050f7c"}
+2025-08-20T12:08:20.271Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.289Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.299Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.311Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.315Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.336Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.355Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.355Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0a673bee-9fd0-439c-bdb1-75f89da5d381"}
+2025-08-20T12:08:20.358Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.363Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.372Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.377Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.381Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.391Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.393Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9798f138-caae-4e44-ae3a-b5e4e0e32ee6"}
+2025-08-20T12:08:20.395Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.401Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.406Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.412Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.419Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.428Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.429Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7686b571-45a5-4464-b1a2-5b533029e46c"}
+2025-08-20T12:08:20.433Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.439Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.445Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.447Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.451Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.465Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.465Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9365bcd5-a54b-47b1-911d-33a750d43ad8"}
+2025-08-20T12:08:20.467Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.471Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.474Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.480Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.490Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.494Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.496Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"df0ac319-24d7-4a0f-bda4-d556a3f30f23"}
+2025-08-20T12:08:20.500Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.508Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.513Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.519Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.522Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.526Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.526Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f3c6a054-fa20-4328-b1d6-63def2c9b4a1"}
+2025-08-20T12:08:20.528Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.532Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.537Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.546Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.561Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.562Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.565Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.593Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.593Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f662a651-e8ba-4555-836f-89b4777d6311"}
+2025-08-20T12:08:20.605Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.621Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.705Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.713Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.716Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.728Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.731Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.733Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.736Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.741Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.747Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.751Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.752Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.754Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.754Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.757Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.766Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.770Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.776Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.777Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5b2082ab-4096-49b8-a6e3-03be5e052e2c"}
+2025-08-20T12:08:20.780Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.783Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.789Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.794Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.802Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.808Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.813Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.814Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"cef2a921-55d0-4669-9c61-44b6d0284ba4"}
+2025-08-20T12:08:20.821Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.826Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.831Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.839Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.849Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.857Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.858Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f5856946-c4ed-4aec-9cb9-5f504b8d33f5"}
+2025-08-20T12:08:20.866Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.875Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.885Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.891Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.895Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.931Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.936Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:20.942Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.945Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.948Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:20.949Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:20.950Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:20.951Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"24daf318-ffba-4269-af19-ba1f170cb2cc"}
+2025-08-20T12:08:20.955Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.965Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.981Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.989Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:20.994Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.024Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.024Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.026Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.026Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.028Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.028Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.033Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.034Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.039Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.040Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"04c66a88-e62b-4dd0-b094-df0222c3eb92"}
+2025-08-20T12:08:21.043Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.054Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.059Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.060Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.064Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.065Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.069Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.117Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.137Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.160Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.163Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.165Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.166Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.182Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.183Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.185Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.185Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.189Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.219Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.221Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1e7a9a19-fd63-4f8b-98de-78aa38939ab2"}
+2025-08-20T12:08:21.225Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.232Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.244Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.253Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.264Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.268Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.273Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.321Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.331Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.332Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"cf880508-b498-46bc-b2b3-b0108f109a73"}
+2025-08-20T12:08:21.349Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.362Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.375Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.379Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.398Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.399Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.401Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.418Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.435Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.436Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"13a3b77b-b9e1-44b6-923c-53fce82a6912"}
+2025-08-20T12:08:21.448Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.455Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.465Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.478Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.493Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.496Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.511Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.511Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"32b1071d-f8c5-4378-8d11-49a800774896"}
+2025-08-20T12:08:21.515Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.532Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.546Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.546Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.549Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.565Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.584Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.598Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.599Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"b28b5590-e8e5-4913-8d43-bb321292ef45"}
+2025-08-20T12:08:21.605Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.609Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.633Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.638Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.642Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.651Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:21.660Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.666Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.682Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.698Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.699Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"d108609b-53d4-4c13-8082-dce9f0a7fae4"}
+2025-08-20T12:08:21.703Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.714Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.720Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.733Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.738Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.750Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.751Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c6cf8b8a-6260-4bd3-839d-27e8ac65cc8f"}
+2025-08-20T12:08:21.754Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.768Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.773Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:21.774Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:21.783Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.789Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.802Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.808Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:21.809Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"7748a92a-0fcf-448b-949d-9e01bfde06d2"}
+2025-08-20T12:08:21.821Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.826Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:21.906Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.031Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.247Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.248Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.250Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.265Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.265Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3a80e7cb-c98a-492d-918b-3c280386aae8"}
+2025-08-20T12:08:22.324Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.345Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.350Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.455Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.459Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.466Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.475Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.476Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.478Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.483Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.484Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.494Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.516Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.517Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.530Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.530Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5d98fb44-aada-4f18-919d-f156bbbc7903"}
+2025-08-20T12:08:22.535Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.551Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.572Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.579Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.618Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.618Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.621Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.631Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.645Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.666Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.667Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5a849cee-d5ca-4a11-9a72-cbbb0b4d1ab7"}
+2025-08-20T12:08:22.678Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.683Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.703Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.719Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.737Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.742Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.743Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5b82450e-59db-4183-99e3-02a7f5b82826"}
+2025-08-20T12:08:22.745Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.760Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.765Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.779Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.787Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.787Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.793Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.800Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.801Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f48ba7bc-a58e-4f2d-ae14-2fc6a60eb9d9"}
+2025-08-20T12:08:22.814Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.840Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.846Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.849Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.862Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.864Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.865Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.866Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.885Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.897Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.898Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"717c847a-b97f-4487-bc1f-63f8b70384e9"}
+2025-08-20T12:08:22.904Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.912Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.916Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:22.929Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.929Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.932Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.952Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.959Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:22.976Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:22.977Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:22.979Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:22.981Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a6b4fc5f-16bd-428f-82fb-66fdd94d0fba"}
+2025-08-20T12:08:22.990Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.060Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.066Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.082Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.083Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"0c7fedff-46cd-4210-8784-e6eeb1740278"}
+2025-08-20T12:08:23.087Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.105Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.111Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.125Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.131Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.150Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.151Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3f2b78b0-55a6-4a2e-b2f7-49fc023ed148"}
+2025-08-20T12:08:23.158Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.170Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.174Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.175Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.179Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.190Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.196Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.210Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.214Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.215Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"86f03595-28fa-4b3d-a4fc-bdfa3db4082e"}
+2025-08-20T12:08:23.221Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.231Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.260Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.279Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.280Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.284Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.300Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.309Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.309Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"c01a0451-10ea-4e98-a036-19ddd8a61ff0"}
+2025-08-20T12:08:23.320Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.328Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.334Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.340Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.343Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.354Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.354Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.356Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.368Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.370Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.374Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.386Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.394Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.395Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ce8af095-76ab-4ee8-a941-cbf435aab203"}
+2025-08-20T12:08:23.424Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.424Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.426Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.528Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.532Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.535Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.546Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.550Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.558Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.559Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"cd87ae8a-e81a-4a53-922c-97bde7828e53"}
+2025-08-20T12:08:23.563Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.569Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.582Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.587Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.591Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.605Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.606Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"4c76baf6-3f00-443f-b7d6-943331fff7e9"}
+2025-08-20T12:08:23.620Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.641Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.653Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.670Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.692Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.692Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.694Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.707Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.708Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"4b98c575-0121-444a-a5df-a689febf7200"}
+2025-08-20T12:08:23.711Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.729Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.735Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.786Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.797Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.807Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.818Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.819Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.824Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.826Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"002d691f-f2e7-4fdd-8598-b2e85027604a"}
+2025-08-20T12:08:23.841Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.858Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.863Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.876Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.878Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.879Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.880Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.893Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.897Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.898Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.900Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.913Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.920Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:23.925Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f5c1cdd1-a070-49cf-a171-add313c01158"}
+2025-08-20T12:08:23.929Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.941Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.949Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:23.958Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:23.961Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:23.963Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.978Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:23.984Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.029Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.030Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.033Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.034Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"e6df402e-9af3-4157-a02b-d0599abbe952"}
+2025-08-20T12:08:24.051Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.068Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.107Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.113Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.125Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.142Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.143Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"56f26bac-1f11-469a-bc6d-72f6c669b9de"}
+2025-08-20T12:08:24.147Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.164Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.168Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.175Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.186Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.195Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.197Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"50442e89-455b-49ce-93fe-8c47c252df83"}
+2025-08-20T12:08:24.216Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.223Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.291Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.311Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.311Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.315Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.327Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.342Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.346Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.354Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.358Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.361Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.362Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"227f0f08-9679-4d13-80bd-6b45f2dd4ab6"}
+2025-08-20T12:08:24.365Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.372Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.379Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.384Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.400Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.416Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.417Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.418Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.419Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.422Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.430Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.439Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.441Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f3df4f4a-e1fd-465e-8c79-d84a0fb902b1"}
+2025-08-20T12:08:24.447Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.458Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.475Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.480Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.489Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.510Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.516Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.523Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3e383c2e-b660-406f-a009-6715d850c533"}
+2025-08-20T12:08:24.527Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.527Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.528Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.535Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.547Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.557Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.567Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.580Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.581Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"bb9de6bc-5918-4a14-8fdb-dea25b70b9aa"}
+2025-08-20T12:08:24.615Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.634Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.642Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.656Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.675Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.679Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.693Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.694Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.696Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.696Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"67914763-5847-4f6f-b1de-1f5ee10d04c1"}
+2025-08-20T12:08:24.709Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.713Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.726Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.727Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.729Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.732Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.743Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.747Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.754Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.768Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.768Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"a7792f01-1f3e-4213-b723-f1fbc2aa1cb3"}
+2025-08-20T12:08:24.777Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.787Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.806Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.807Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.809Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.814Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.827Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.833Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.845Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.847Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.853Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.854Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"fed316e7-86dc-4161-bd16-5845f5fe5890"}
+2025-08-20T12:08:24.861Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.877Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.897Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.902Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.911Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.921Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.935Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:24.936Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:24.941Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:24.942Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5a20aeb3-d5e6-4630-b9d9-35a95bb1166f"}
+2025-08-20T12:08:24.945Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.957Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.974Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:24.977Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.983Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:24.994Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.002Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:25.002Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:25.011Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:25.011Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"f4f92c5b-9bef-4be8-bfbc-71261de9ac75"}
+2025-08-20T12:08:25.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.046Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.057Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:25.066Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.076Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2025-08-20T12:08:25.077Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1603234f-08ab-43c6-a596-ce62ba90f4b6"}
+2025-08-20T12:08:25.082Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.095Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.107Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:25.108Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:25.112Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:08:25.138Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:25.148Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:25.149Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:25.156Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2025-08-20T12:08:25.166Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 401 {"error":401}
+2025-08-20T12:08:25.166Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
+2025-08-20T12:08:56.800Z [info][Sonarr Scan]: Sonarr scan complete 
+2025-08-20T12:09:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-08-20T12:09:08.734Z [info][Radarr Scan]: Radarr scan complete 

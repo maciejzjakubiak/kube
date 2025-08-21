@@ -1,0 +1,32 @@
+[2025-08-21T20:31:31.529Z] info: kubernetes.yaml was copied to the config folder
+[2025-08-21T20:32:44.174Z] info: docker.yaml was copied to the config folder
+[2025-08-21T20:32:44.229Z] info: services.yaml was copied to the config folder
+[2025-08-21T20:32:44.257Z] info: bookmarks.yaml was copied to the config folder
+[2025-08-21T20:32:44.295Z] info: widgets.yaml was copied to the config folder
+[2025-08-21T20:32:44.331Z] info: custom.css was copied to the config folder
+[2025-08-21T20:32:44.371Z] info: custom.js was copied to the config folder
+[2025-08-21T20:32:44.548Z] info: proxmox.yaml was copied to the config folder
+[2025-08-21T20:53:14.010Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2025-08-21T20:53:14.042Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 140.82.114.6:443
+      at <unknown> (Error: connect ETIMEDOUT 140.82.114.6:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '140.82.114.6',
+    port: 443
+  }
+]
+[2025-08-21T20:53:32.428Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2025-08-21T20:53:32.431Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 140.82.114.6:443
+      at <unknown> (Error: connect ETIMEDOUT 140.82.114.6:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '140.82.114.6',
+    port: 443
+  }
+]
