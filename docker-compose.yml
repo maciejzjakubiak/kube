@@ -67,16 +67,6 @@ services:
       - "6881:6881/udp"
     restart: unless-stopped
 
-  # homepage:
-  #   image: gethomepage/homepage
-  #   container_name: homepage
-  #   network_mode: "bridge"
-  #   volumes:
-  #     - ./homepage/config:/app/config
-  #   ports:
-  #     - "5055:5055"    # Change if needed
-  #   restart: unless-stopped 
-
   homepage:
     image: gethomepage/homepage:latest
     container_name: homepage
@@ -99,3 +89,109 @@ services:
     restart: unless-stopped
     # devices:
     #   - /dev/ttyUSB0:/dev/ttyUSB0 # Uncomment and modify if using a USB device
+
+  nginx-proxy-manager:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy-manager
+    network_mode: "bridge"
+    volumes:
+      - ./nginx-proxy-manager/data:/data
+      - ./nginx-proxy-manager/etc/letsencrypt:/etc/letsencrypt
+    ports:
+      - 80:80    # Public HTTP Port
+      - 443:443  # Public HTTPS Port
+      - 81:81    # Admin Web Port
+    restart: unless-stopped
+    
+  wg-easy:
+    image: weejewel/wg-easy
+    container_name: wireguard
+    environment:
+      - WG_HOST=your_server_ip_or_ddns_domain
+      - PASSWORD=password
+      - WG_PORT=51820 # Or your desired WireGuard UDP port
+      - WEB_PORT=51821 # Or your desired web interface TCP port
+    volumes:
+      - ./wireguard/etc/wireguard:/etc/wireguard
+    ports:
+      - 51820:51820/udp # WireGuard VPN port
+      - 5000:5000/tcp # Web interface port
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    sysctls:
+      - net.ipv4.ip_forward=1
+      - net.ipv4.conf.all.src_valid_lables=1
+    restart: unless-stopped
+
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 3000:3000/tcp # AdGuard Home web interface
+      # Add other ports as needed for features like DNS-over-HTTPS, DNS-over-TLS, etc.
+      # - 80:80/tcp # If you want to use port 80 for the admin panel (only if not in use)
+      # - 443:443/tcp # If you want to use port 443 for DNS-over-HTTPS
+      # - 853:853/tcp # If you want to use port 853 for DNS-over-TLS
+    volumes:
+      - ./adguard/opt/adguardhome/work:/opt/adguardhome/work
+      - ./adguard/opt/adguardhome/conf:/opt/adguardhome/conf
+    environment:
+      - TZ=America/Chicago # Replace with your desired timezone
+    cap_add:
+      - NET_ADMIN # Required for features like DHCP server    
+    restart: unless-stopped
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    ports:
+      - 9443:9443
+    volumes:
+      - ./portainer/data:/data
+      - ./portainer/var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+  database:
+    image: mariadb:10.5
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    restart: always
+    volumes:
+      - db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: your_root_password
+      MYSQL_DATABASE: nextcloud_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: nextcloud_password
+
+  nextcloud:
+    image: nextcloud:latest
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - ./nextcloud/var/www/html:/var/www/html
+      - ./nextcloud/var/www/html/config:/var/www/html/config
+      - nextcloud/var/www/html/data:/var/www/html/data
+    environment:
+      MYSQL_HOST: database
+      MYSQL_DATABASE: nextcloud_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: nextcloud_password
+      NEXTCLOUD_TRUSTED_DOMAINS: localhost your_domain.com  
+
+  heimdall:
+    image: lscr.io/linuxserver/heimdall:latest
+    container_name: heimdall
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - ALLOW_INTERNAL_REQUESTS=false #optional
+    volumes:
+      - /path/to/heimdall/config:/config
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped    
